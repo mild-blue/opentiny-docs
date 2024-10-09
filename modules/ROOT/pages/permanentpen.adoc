@@ -6,8 +6,6 @@
 :plugincode: permanentpen
 :pluginminimumplan: tiertwo
 
-include::partial$misc/admon-premium-plugin.adoc[]
-
 The Permanent Pen allows a user to apply a pre-defined format (for example, color, typeface and type style, font, etc.) to a new content, overriding the default values set for that content area.
 
 The Permanent Pen is useful when a distinct style text needs to be repeatedly added to the content. The user can pre-define the desired style in the Permanent Pen properties. This pre-defined style is applied to all the text entered into the document while the Permanent Pen is enabled. The ability to store information for reuse saves the user time and ensures consistency across the content.

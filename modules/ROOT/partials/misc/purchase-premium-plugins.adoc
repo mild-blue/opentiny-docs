@@ -53,22 +53,6 @@ endif::[]
 ifeval::["{pluginminimumplan}" != "enterprise"]
 The *{pluginname} {extensionType}* {isAre} included in the following {cloudname} plans:
 endif::[]
-ifeval::["{pluginminimumplan}" == "enterprise"]
-The *{pluginname} {extensionType}* {isAre} included in link:{pricingpage}/[{enterpriseplan}].
-endif::[]
-
-ifdef::isTierOne[]
-* The link:{pricingpage}[{tieroneplan}].
-endif::[]
-ifdef::isTierOne,isTierTwo[]
-* The link:{pricingpage}[{tiertwoplan}].
-endif::[]
-ifdef::isTierOne,isTierTwo,isTierThree[]
-* The link:{pricingpage}[{tierthreeplan}].
-endif::[]
-ifndef::isEnterprise[]
-* link:{pricingpage}/[{enterpriseplan}].
-endif::[]
 
 ifdef::isTierTwo[]
 A 14-day free trial is also available for the {tiertwoplan} and the {tierthreeplan}.

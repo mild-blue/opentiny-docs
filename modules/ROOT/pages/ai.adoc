@@ -7,8 +7,6 @@
 :plugincode: ai
 :plugincategory: premium
 
-include::partial$misc/admon-ai-pricing.adoc[]
-
 include::partial$misc/admon-requires-6.6v.adoc[]
 
 The {pluginname} plugin allows a user to interact with registered AI APIs by sending queries and viewing responses within a {productname} editor dialog.

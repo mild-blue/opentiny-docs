@@ -7,8 +7,6 @@
 :plugincode: advtemplate
 :plugincategory: premium
 
-include::partial$misc/admon-premium-plugin.adoc[]
-
 include::partial$misc/admon-requires-6.4v.adoc[]
 
 The {pluginname} Premium plugin enables the creation of complex, interactive templates using {productname}.

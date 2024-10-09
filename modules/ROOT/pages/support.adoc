@@ -6,10 +6,6 @@
 
 == Getting support
 
-=== Premium support
-
-Paid premium support is available as part of link:{pricingpage}/[{enterpriseversion} and {cloudname} subscriptions]. {productname} Enterprise customers can link:{supporturl}/[submit a case support request].
-
 === Community support
 
 Open Source Community Edition users can get free help from Stack Overflow using the link:{communitysupporturl}[`{prodnamecode}` tag].

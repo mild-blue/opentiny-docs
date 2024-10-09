@@ -23,8 +23,6 @@ The steps required for setting up {cloudfilemanager} are:
 [[register-for-a-tiny-cloud-api-key]]
 == 1. Register for a Tiny Cloud API key
 
-If you do not have a {cloudname} API key, you can sign up for a trial or purchase a subscription on the link:{pricingpage}/[{companyname} pricing page].
-
 include::partial$auth/private-public-key-pairs-for-tiny-cloud-services.adoc[leveloffset=+1]
 
 [[set-up-a-json-web-token-jwt-provider-endpoint]]

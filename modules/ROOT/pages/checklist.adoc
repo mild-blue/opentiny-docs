@@ -6,8 +6,6 @@
 :plugincode: checklist
 :pluginminimumplan: tiertwo
 
-include::partial$misc/admon-premium-plugin.adoc[]
-
 The *Checklist* plugin allows the user to add checkbox lists to their content for creating checklists.
 
 == Try our Checklist demo

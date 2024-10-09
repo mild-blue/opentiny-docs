@@ -6,8 +6,6 @@
 :plugincode: linkchecker
 :pluginminimumplan: tierthree
 
-include::partial$misc/admon-premium-plugin.adoc[]
-
 The `+linkchecker+` plugin validates URLs, as you type. URLs considered invalid will be highlighted with red and will have a dedicated context menu with options to either edit the link, try and open it in a separate tab, remove the link, or ignore it.
 
 The Link Checker plugin relies on HTTP response status codes to determine if a link is valid. Web pages that return incorrect or invalid HTTP responses are highlighted as invalid or "broken". For information on valid HTTP response status codes, see: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status[MDN Web Docs - HTTP response status codes].

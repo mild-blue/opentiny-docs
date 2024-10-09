@@ -16,7 +16,7 @@ If {productname} detects an invalid API key, it will display a notification. If 
 
 == How can I get an API key?
 
-The Admin who owns your {productname} implementation will need to log in https://www.tiny.cloud/my-account/integrate/[here] to get your account’s API key. If you do not have an account yet, you can https://www.tiny.cloud/pricing/[sign up for a free API key]. Paid users can https://www.tiny.cloud/contact/[contact our Technical Support] team for help.
+The Admin who owns your {productname} implementation will need to log in https://www.tiny.cloud/my-account/integrate/[here] to get your account’s API key.
 
 == What will happen if I don't provide a valid API key?
 
@@ -40,7 +40,7 @@ If you are receiving an error notification, you are using the cloud-hosted optio
 
 Our integrations default to using the {productname} Cloud service. If you’re receiving the notification that an API key is required, it means that you’re using the cloud-hosted option for {productname} under commercial license which requires a valid API key and allows for 1,000 editor loads per month for free. 
 
-Please xref:installation.adoc[read our docs] to learn how to self-host {productname} or https://www.tiny.cloud/pricing/[sign up here] to continue using {productname} Cloud.
+Please xref:installation.adoc[read our docs] to learn how to self-host {productname}.
 
 == I’ve used {productname} for years. Why am I now receiving notification that an API key is required? 
 

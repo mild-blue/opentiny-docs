@@ -7,8 +7,6 @@
 :plugincode: typography
 :plugincategory: premium
 
-include::partial$misc/admon-premium-plugin.adoc[]
-
 include::partial$misc/admon-requires-6.3v.adoc[]
 
 The {pluginname} plugin, depending on its setting, can replace common typewriter-style characters with their professional typesetter equivalents after the _Advanced Typography_ button is pressed. This action will modify either the entire content for the {productname} document or the specific text selection highlighted by the user.

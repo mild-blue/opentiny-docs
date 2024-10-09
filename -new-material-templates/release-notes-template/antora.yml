@@ -1,5 +1,5 @@
-name: tinymce
-title: TinyMCE Documentation
+name: opentiny
+title: OpenTiny Documentation
 # update the version value if required. Almost certainly *not* required.
 version: '6'
 asciidoc:
@@ -15,16 +15,16 @@ asciidoc:
     tinydrive_live_demo_url: https://cdn.tiny.cloud/1/qagffr3pkuv17a8on1afax661irst1hbr4e6tbv888sz91jc/tinydrive/6/tinydrive.min.js
     webcomponent_url: https://cdn.jsdelivr.net/npm/@tinymce/tinymce-webcomponent@2/dist/tinymce-webcomponent.min.js
     jquery_url: https://cdn.jsdelivr.net/npm/@tinymce/tinymce-jquery@2/dist/tinymce-jquery.min.js
-    default_meta_keywords: tinymce, documentation, docs, plugins, customizable skins, configuration, examples, html, php, java, javascript, image editor, inline editor, distraction-free editor, classic editor, wysiwyg
+    default_meta_keywords: opentiny, documentation, docs, plugins, customizable skins, configuration, examples, html, php, java, javascript, image editor, inline editor, distraction-free editor, classic editor, wysiwyg
     # product variables
-    productname: TinyMCE
+    productname: OpenTiny
     productmajorversion: 6
     # update the productminorversion value if required. Likely required.
     # Note: this value is not changed for .z updates.
     # For example, an update from 6.6.0 to 6.6.1 does not require a change to this variable’s value.
     productminorversion: '6.6'
     ##### product name in codeblock
-    prodnamecode: tinymce
+    prodnamecode: opentiny
     #### more names
     companyname: Tiny
     companynameformal: Tiny Technologies, Inc.
@@ -53,13 +53,10 @@ asciidoc:
     accountkeyurl: https://www.tiny.cloud/my-account/key-manager/
     accountjwturl: https://www.tiny.cloud/my-account/jwt/
     accountsignup: https://www.tiny.cloud/auth/signup
-    pricingpage: https://www.tiny.cloud/pricing
     contactpage: https://www.tiny.cloud/contact
     legalpages: https://www.tiny.cloud/legal
     communitysupporturl: https://stackoverflow.com/questions/tagged/tinymce
     betaprogramurl: https://www.tiny.cloud/insights-program/
-    # plugin-specific tiny.cloud URLs
-    aipricingurl: https://www.tiny.cloud/tinymce/features/ai-integration/
     # HTML entities
     tick: '&#10004;'
     cross: '&#10006;'

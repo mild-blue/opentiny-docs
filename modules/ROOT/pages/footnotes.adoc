@@ -6,8 +6,6 @@
 :plugincode: footnotes
 :pluginminimumplan: tierthree
 
-include::partial$misc/admon-premium-plugin.adoc[]
-
 include::partial$misc/admon-requires-6.2v.adoc[]
 
 The {pluginname} plugin allows the user to insert a footnote into the {productname} editor.

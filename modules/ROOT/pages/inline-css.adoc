@@ -7,8 +7,6 @@
 :plugincode: inlinecss
 :plugincategory: premium
 
-include::partial$misc/admon-premium-plugin.adoc[]
-
 include::partial$misc/admon-requires-6.3v.adoc[]
 
 As is normal and long-time best practice, {productname} documents keep CSS and HTML separate. This practice is not, however, email-friendly.

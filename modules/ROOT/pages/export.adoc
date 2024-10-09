@@ -6,8 +6,6 @@
 :plugincode: export
 :pluginminimumplan: tiertwo
 
-include::partial$misc/admon-premium-plugin.adoc[]
-
 The {pluginname} plugin adds the ability to export content from the editor to a user's local machine in various formats. For a list of available exporters and information on what they support, see the xref:exporters[Exporters section].
 
 == Interactive example
