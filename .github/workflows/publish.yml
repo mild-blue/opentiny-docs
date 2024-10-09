@@ -1,0 +1,58 @@
+name: Publish to GitHub Pages
+on:
+  push:
+    branches: [master]
+    workflow_dispatch:
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    strategy:
+      matrix:
+        node-version: [21]
+
+    steps:
+    - uses: actions/checkout@v1
+
+    - name: Configure Pages
+      uses: actions/configure-pages@v3
+
+    - name: Use Node.js
+      uses: actions/setup-node@v2
+      with:
+        cache: 'yarn'
+        node-version: ${{ matrix.node-version }}
+
+    - name: Install dependencies
+      run: yarn install
+
+    - name: Build API References
+      run: yarn build
+
+    - name: Build Website
+      run: yarn generate-site ./antora-playbook-prod.yml
+
+    - name: Rename sitemap.xml
+      shell: bash
+      run: |
+        mv ./build/site/sitemap.xml ./build/site/antora-sitemap.xml
+
+    - name: Upload Artifacts
+      uses: actions/upload-pages-artifact@v2
+      with:
+        path: build/site
+
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v2
