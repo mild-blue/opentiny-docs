@@ -1,26 +1,26 @@
-This page outlines how you can provide feedback and contribute to TinyMCE documentation.
+This page outlines how you can provide feedback and contribute to OpenTiny documentation.
 
 # Contributor Code of Conduct
 
-For our Contributor Code of Conduct, visit our [Contributor Covenant Code of Conduct on GitHub](https://github.com/tinymce/tinymce-docs/blob/develop/CODE_OF_CONDUCT.md#contributor-covenant-code-of-conduct).
+For our Contributor Code of Conduct, visit our [Contributor Covenant Code of Conduct on GitHub](https://github.com/mild-blue/opentiny-docs/blob/develop/CODE_OF_CONDUCT.md#contributor-covenant-code-of-conduct).
 
-# How to contribute to TinyMCE’s documentation
+# How to contribute to OpenTiny’s documentation
 
-We welcome people with technical writing experience to help make TinyMCE’s docs as useful to our community as possible. Although you don’t need to be an expert developer to contribute, a basic understanding of software development is helpful.
+We welcome people with technical writing experience to help make OpenTiny’s docs as useful to our community as possible. Although you don’t need to be an expert developer to contribute, a basic understanding of software development is helpful.
 
-What is more important is your ability to articulate complex ideas. Our goal is to help developers understand TinyMCE’s functionality as quickly as possible.
+What is more important is your ability to articulate complex ideas. Our goal is to help developers understand OpenTiny’s functionality as quickly as possible.
 
-Simply branch the [docs GitHub repository](https://github.com/tinymce/tinymce-docs) and submit a PR, or reach out to the [TinyMCE docs team](https://github.com/tinymce/tinymce-docs/issues/new?assignees=&labels=question&template=question.md) if you have a specific question.
+Simply branch the [docs GitHub repository](https://github.com/mild-blue/opentiny-docs) and submit a PR, or reach out to the [OpenTiny docs team](https://github.com/mild-blue/opentiny-docs/issues/new?assignees=&labels=question&template=question.md) if you have a specific question.
 
-# TinyMCE documentation tech stack
+# OpenTiny documentation tech stack
 
-The documentation is built with [Antora](https://antora.org/) and text files are written in [AsciiDoc](https://asciidoc.org/). You will find the [repo here](https://github.com/tinymce/tinymce-docs).
+The documentation is built with [Antora](https://antora.org/) and text files are written in [AsciiDoc](https://asciidoc.org/). You will find the [repo here](https://github.com/mild-blue/opentiny-docs).
 
 ## Highlighting
 
 Code language syntax and associated elements are highlighted using an open and closing backtick. For example, this `object` is actually enclosed with backticks like this: `object`.
 
-Highlight words relating specifically to executable parts of software languages. Keys and their values when pertaining to objects and methods (particularly the case with TinyMCE) should have backticks. We cannot cover every use case here and contributors need to use their best judgment.
+Highlight words relating specifically to executable parts of software languages. Keys and their values when pertaining to objects and methods (particularly the case with OpenTiny) should have backticks. We cannot cover every use case here and contributors need to use their best judgment.
 
 ## Code snippets
 
@@ -388,9 +388,9 @@ Cascading Style Sheets (CSS)
 : Capitalize references to the technique for adding formatting and styles to web content. Do not use *CSS* to refer to a specific cascading style sheet. Instead, use *CSS file* or *style sheet*.
 
 channel  
-: Use *channel* to describe the various CDN URLs that developers can use to source the TinyMCE JavaScript files.
+: Use *channel* to describe the various CDN URLs that developers can use to source the OpenTiny JavaScript files.
 
-For example: Load TinyMCE from the stable channel on Tiny Cloud by including the following script tag.
+For example: Load OpenTiny from the stable channel on Tiny Cloud by including the following script tag.
 
 cloud  
 : Use *cloud* as an adjective. Do not use as a noun (the cloud). Do not use cloud interchangeably with *internet*
@@ -458,13 +458,13 @@ HTML
 JavaScript, JS  
 : The correct capitalization is *JavaScript*. Do not use *Javascript* or *javascript*. Do not use *JS* unless it is referring to a specific library such as *PrismJS*
 
-For example: Another popular JavaScript minification tool, UglifyJS2, will corrupt TinyMCE unless ASCII-only is set.
+For example: Another popular JavaScript minification tool, UglifyJS2, will corrupt OpenTiny unless ASCII-only is set.
 
 menu bar, menubar  
 : Use *menu bar* as two words. Do not use *menubar* or *menu-bar* as a compound word.
 
 plugin  
-: The preferred way of referring to an add-on or extension for TinyMCE. Do not use *add-on*, *extension*, *app*, or *plug-in*.
+: The preferred way of referring to an add-on or extension for OpenTiny. Do not use *add-on*, *extension*, *app*, or *plug-in*.
 
 premium features  
 : *premium features* and not *Premium features*.
@@ -477,7 +477,7 @@ question marks ("?")
 
 *Bad example:*
 
-Why make TinyMCE mobile friendly?
+Why make OpenTiny mobile friendly?
 
 *Good examples:*
 
@@ -491,7 +491,7 @@ quickstart, quick start
 : Content to help developers get our products up and running quickly. Use *quickstart*.
 
 rich text editor, rich-text editor, RTE  
-: Most common way to refer to TinyMCE’s product category.
+: Most common way to refer to OpenTiny’s product category.
 
 Use rich text editor rather than rich-text editor (even if the later may be more technically correct). Do not use RTE.
 
@@ -539,7 +539,7 @@ Tiny
 Do not use *Tiny* to refer to the core editor, which is *TinyMCE*.
 
 Tiny 5.x, Tiny 6.0
-: *Tiny* is not a product. Do not give it a version. Use the product name, such as TinyMCE 6.0 or TinyMCE 5.9.
+: *Tiny* is not a product. Do not give it a version. Use the product name, such as OpenTiny 6.0 or OpenTiny 5.9.
 
 Tiny Cloud  
 : Correct way to refer to the Tiny Cloud service. Spell it out on all occasions.
@@ -551,25 +551,23 @@ Tiny Technologies Inc.
 
 Do not use *Ephox Corporation*.
 
-TinyMCE  
+OpenTiny  
 : This is the JavaScript library for rich text editing.
 
-Capitalize the *MCE* Do not use *Tinymce*. *tinymce* is allowed in code and codeblocks where required.
+OpenTiny 5
+: Correct way to refer to the 5.x releases of OpenTiny unless a specific version number (major.minor.patch) is *required*.
 
-TinyMCE 5
-: Correct way to refer to the 5.x releases of TinyMCE unless a specific version number (major.minor.patch) is *required*.
+OpenTiny 5.x
+: Do not use. Use *OpenTiny 5* or *version 5*. If necessary to specify the availability of a new feature or change in behavior, specify the minor version number such as OpenTiny 5.7.
 
-TinyMCE 5.x
-: Do not use. Use *TinyMCE 5* or *version 5*. If necessary to specify the availability of a new feature or change in behavior, specify the minor version number such as TinyMCE 5.7.
+OpenTiny 6
+: Correct way to refer to the 6.x releases of OpenTiny unless a specific version number (major.minor.patch) is *required*.
 
-TinyMCE 6
-: Correct way to refer to the 6.x releases of TinyMCE unless a specific version number (major.minor.patch) is *required*.
-
-TinyMCE Cloud  
+OpenTiny Cloud  
 : Do not use. Use *Tiny Cloud*.
 
 UI component  
-: Collective term for TinyMCE user interface elements, such as: *dialogs*, *toolbars*, and *toolbar buttons*.
+: Collective term for OpenTiny user interface elements, such as: *dialogs*, *toolbars*, and *toolbar buttons*.
 
 UI element  
 : Avoid using *UI element*.
@@ -578,9 +576,9 @@ URL, url, Url
 : Use *URL*. Do not spell out the acronym. Do not use *url* or *Url*.
 
 user  
-: Typically refers to the end user of TinyMCE (such as the content author).
+: Typically refers to the end user of OpenTiny (such as the content author).
 
-Use *end user* when it is necessary to delineate between the developer as a user and the end user of TinyMCE.
+Use *end user* when it is necessary to delineate between the developer as a user and the end user of OpenTiny.
 
 Use *Integrator* or *developer* where appropriate.
 
@@ -593,7 +591,7 @@ Do not use *UI experience*
 
 For example:
 
-To give feedback on the TinyMCE user experience on mobile devices, complete this survey.
+To give feedback on the OpenTiny user experience on mobile devices, complete this survey.
 
 user interface (UI)  
 : Acceptable to use *UI* in most communication. For content destined for non-technical users, spell out user interface (UI) the first time it used in the document.

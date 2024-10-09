@@ -4,7 +4,7 @@ PLAYBOOK="$1"
 
 
 BUILD_DIR="build"
-SITE_DIR="$BUILD_DIR/site/tinymce"
+SITE_DIR="$BUILD_DIR/site/opentiny"
 
 SOURCE_VERSION="latest"
 SOURCE_DIR="$SITE_DIR/$SOURCE_VERSION/"

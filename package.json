@@ -1,10 +1,10 @@
 {
-  "name": "tinymce-docs",
+  "name": "opentiny-docs",
   "version": "2.0.0",
-  "description": "TinyMCE documentation",
-  "repository": "git@github.com:tinymce/tinymce-docs.git",
+  "description": "OpenTiny documentation",
+  "repository": "git@github.com:mild-blue/opentiny-docs.git",
   "bugs": {
-    "url": "https://github.com/tinymce/tinymce-docs/issues"
+    "url": "https://github.com/mild-blue/opentiny-docs/issues"
   },
   "homepage": "https://www.tiny.cloud/docs/",
   "scripts": {
