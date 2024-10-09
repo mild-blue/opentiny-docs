@@ -1,0 +1,34 @@
+<div class="new-search-input">
+  <div class="search-box" id="search-box"></div>
+</div>
+
+<script type="text/javascript">
+  (function () {
+    const versions = {
+      "latest": "docs-7x",
+      "6": "docs-6x",
+      "5": "docs-5x",
+    }
+
+    function extractVersionFromUrl(url) {
+      const pathSegments = url.pathname.split('/');
+      const versionIndex = pathSegments.indexOf('tinymce') + 1;
+      if (versionIndex > 0 && versionIndex < pathSegments.length) {
+        return pathSegments[versionIndex];
+      }
+    }
+
+    const currentUrl = new URL(window.location.href);
+    const currentVersion = extractVersionFromUrl(currentUrl);
+
+    docsearch({
+      container: '#search-box',
+      appId: 'OUKDAAI2PO',
+      indexName: 'tiny',
+      apiKey: '8e6918f1a5695e9876e979c3f6a0a57e',
+      searchParameters: {
+        facetFilters: versions[currentVersion] ? [`tags:${versions[currentVersion]}`] : [],
+      },
+    });
+  })();
+</script>

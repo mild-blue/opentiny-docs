@@ -1,0 +1,29 @@
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="{{{or site.url (or siteRootUrl siteRootPath)}}}/tinymce/latest/">
+        <img id="pc-logo" src="{{{uiRootPath}}}/img/tiny-white.svg" alt="Tiny logo" height="48px" style="padding: 10px 10px 10px 0px;"></a>
+        <img id="mobile-logo" src="{{{uiRootPath}}}/img/tiny-white-sm.png" alt="Tiny logo"></a>
+        {{> algolia-search}}
+      <button class="navbar-burger" data-target="topbar-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="https://www.tiny.cloud/">Home</a>
+        <a class="navbar-item" href="https://www.tiny.cloud/pricing/">Pricing</a>
+        <a class="navbar-item" href="https://skin.tiny.cloud/t5/">Skin Tool</a>
+        <a class="navbar-item" href="https://www.tiny.cloud/get-tiny/language-packages/">Language Packs</a>
+        <a class="navbar-item navbar-item--login" href="https://www.tiny.cloud/auth/login/">Log In</a>
+        <div class="navbar-item navbar-item--api-key">
+          <span class="control">
+            <a class="get-api-key" target="blank" href="https://www.tiny.cloud/auth/signup/">Get Free API Key</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
