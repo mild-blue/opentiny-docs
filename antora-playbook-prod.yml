@@ -1,7 +1,7 @@
 site:
-  title: TinyMCE Documentation
-  url: https://www.tiny.cloud/docs
-  start_page: tinymce::index.adoc
+  title: OpenTiny Documentation
+  url: https://opentiny.mild.blue
+  start_page: opentiny::index.adoc
 content:
   sources:
   - url: ./
