@@ -42,7 +42,7 @@ The default value for this option was changed with {productname} 7.0, see more x
 ]
 ----
 [TIP]
-When the `text_patterns` option is set in the TinyMCE editor configuration, the new value entirely overwrites the existing default text patterns. This means that the editor will use the patterns specified in the user's configuration and ignore the default patterns. If one wants to add new patterns without losing the default ones, all the default patterns must be included in the custom `text_patterns` array along with any additional patterns.
+When the `text_patterns` option is set in the OpenTiny editor configuration, the new value entirely overwrites the existing default text patterns. This means that the editor will use the patterns specified in the user's configuration and ignore the default patterns. If one wants to add new patterns without losing the default ones, all the default patterns must be included in the custom `text_patterns` array along with any additional patterns.
 
 === Inline patterns
 

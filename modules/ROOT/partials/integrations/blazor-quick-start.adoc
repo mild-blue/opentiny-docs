@@ -19,11 +19,11 @@ This procedure requires:
 
 . On the Visual Studio toolbar, click the https://docs.microsoft.com/en-us/visualstudio/ide/create-new-project[*New Project* button].
 . Select the *Blazor Server App* template.
-. Use the NuGet package manager console to install the `+TinyMCE.Blazor+` package, such as:
+. Use the NuGet package manager console to install the `+OpenTiny.Blazor+` package, such as:
 +
 [source,sh]
 ----
-Install-Package TinyMCE.Blazor
+Install-Package OpenTiny.Blazor
 ----
 
 ifeval::["{productSource}" == "package-manager"]
@@ -32,7 +32,7 @@ ifeval::["{productSource}" == "package-manager"]
 +
 [source,sh]
 ----
-Install-Package TinyMCE
+Install-Package OpenTiny
 ----
 
 endif::[]
@@ -67,7 +67,7 @@ cd BlazorApp
 +
 [source,sh]
 ----
-dotnet add package TinyMCE.Blazor
+dotnet add package OpenTiny.Blazor
 ----
 
 ifeval::["{productSource}" == "package-manager"]
@@ -76,7 +76,7 @@ ifeval::["{productSource}" == "package-manager"]
 +
 [source,sh]
 ----
-dotnet add package TinyMCE
+dotnet add package OpenTiny
 ----
 
 endif::[]

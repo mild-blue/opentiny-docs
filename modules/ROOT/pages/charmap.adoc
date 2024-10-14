@@ -1,6 +1,6 @@
 = Character Map plugin
 :navtitle: Character Map
-:description: Insert special characters into TinyMCE.
+:description: Insert special characters into OpenTiny.
 :keywords: charmap, symbols
 :pluginname: Character Map
 :plugincode: charmap

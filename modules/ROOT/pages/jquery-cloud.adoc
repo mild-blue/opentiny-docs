@@ -1,6 +1,6 @@
-= TinyMCE jQuery integration quick start guide
+= OpenTiny jQuery integration quick start guide
 :navtitle: jQuery
-:description: Documentation for the official TinyMCE jQuery integration.
+:description: Documentation for the official OpenTiny jQuery integration.
 :keywords: integration, integrate, jquery, javascript
 :productSource: cloud
 

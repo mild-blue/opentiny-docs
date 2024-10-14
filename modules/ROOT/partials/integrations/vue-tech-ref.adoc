@@ -1,7 +1,7 @@
 *Covered in this section:*
 
-* xref:installing-the-tinymce-vuejs-integration-using-npm[Installing the TinyMCE Vue.js integration using NPM]
-* xref:using-the-tinymce-vuejs-integration[Using the TinyMCE Vue.js integration]
+* xref:installing-the-tinymce-vuejs-integration-using-npm[Installing the OpenTiny Vue.js integration using NPM]
+* xref:using-the-tinymce-vuejs-integration[Using the OpenTiny Vue.js integration]
 * xref:configuring-the-editor[Configuring the editor]
 ** xref:api-key[`+api-key+`]
 ** xref:cloud-channel[`+cloud-channel+`]
@@ -20,7 +20,7 @@
 * xref:event-binding[Event binding]
 
 [[installing-the-tinymce-vuejs-integration-using-npm]]
-== Installing the TinyMCE Vue.js integration using NPM
+== Installing the OpenTiny Vue.js integration using NPM
 
 To install the `+tinymce-vue+` package and save it to your `+package.json+`.
 
@@ -38,7 +38,7 @@ npm install --save "@tinymce/tinymce-vue@^3"
 ----
 
 [[using-the-tinymce-vuejs-integration]]
-== Using the TinyMCE Vue.js integration
+== Using the OpenTiny Vue.js integration
 
 . Load the component.
 * For bundle loader users (such as `+webpack+`, `+rollup+`, or `+browserify+`):
@@ -355,7 +355,7 @@ For information setting the toolbar for {productname}, see: xref:toolbar-configu
 [[tinymce-script-src]]
 === `+tinymce-script-src+`
 
-Use the `+tinymce-script-src+` prop to specify an external version of TinyMCE to lazy load.
+Use the `+tinymce-script-src+` prop to specify an external version of OpenTiny to lazy load.
 
 *Type:* `+String+`
 
@@ -394,7 +394,7 @@ For older versions of Vue (Vue 2) supported by v3.x, the syntax for event bindin
 
 When the handler is called (*handlerFunction* in this example), it is called with two arguments:
 
-* `+event+` - The TinyMCE event object.
+* `+event+` - The OpenTiny event object.
 * `+editor+` - A reference to the editor.
 
 The following events are available:

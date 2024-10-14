@@ -1,7 +1,7 @@
-= Bundling TinyMCE skins using module loading
+= Bundling OpenTiny skins using module loading
 :navtitle: Skins
-:description_short: Information on bundling TinyMCE skins
-:description: Information on bundling TinyMCE skins using module loading
+:description_short: Information on bundling OpenTiny skins
+:description: Information on bundling OpenTiny skins using module loading
 
 :editorcomponent: skin
 include::partial$module-loading/bundling-ref-example.adoc[]

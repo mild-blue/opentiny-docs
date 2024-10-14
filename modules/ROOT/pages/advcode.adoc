@@ -1,6 +1,6 @@
 = Advanced Code Editor plugin
 :navtitle: Advanced Code Editor
-:description: How to setup TinyMCE's Advanced Code Editor plugin.
+:description: How to setup OpenTiny's Advanced Code Editor plugin.
 :keywords: code, advcode, codemirror
 :pluginname: Advanced Code Editor
 :plugincode: advcode

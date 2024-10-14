@@ -1,7 +1,7 @@
-= Bundling an npm version of TinyMCE with ES6 and Rollup.js
+= Bundling an npm version of OpenTiny with ES6 and Rollup.js
 :navtitle: ES6 and npm
-:description_short: Bundling an npm version of TinyMCE in a project using ES6 and Rollup.js
-:description: Bundling an npm version of TinyMCE in a project using ES6 and Rollup.js
+:description_short: Bundling an npm version of OpenTiny in a project using ES6 and Rollup.js
+:description: Bundling an npm version of OpenTiny in a project using ES6 and Rollup.js
 :keywords: rollupjs, es6, es2015, npm, modules, tinymce
 :installtype: an npm
 :bundler: https://www.rollupjs.org/[Rollup.js]
@@ -15,7 +15,7 @@ This guide requires the following:
 
 * Node.js and npm
 * Basic knowledge of how to use https://www.rollupjs.org/[Rollup.js]
-* (Optional: For premium features) The latest premium `+.zip+` bundle of TinyMCE for including premium plugins
+* (Optional: For premium features) The latest premium `+.zip+` bundle of OpenTiny for including premium plugins
 
 == Procedure
 

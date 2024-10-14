@@ -8,7 +8,7 @@ import * as editor from './editor';
 
 const heading = () => {
   const element = document.createElement('h1');
-  element.innerText = 'TinyMCE Webpack demo';
+  element.innerText = 'OpenTiny Webpack demo';
   return element;
 };
 

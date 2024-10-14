@@ -1,6 +1,6 @@
 = APIs for custom dialogs
 :navtitle: APIs
-:description: APIs for custom TinyMCE dialogs
+:description: APIs for custom OpenTiny dialogs
 :keywords: dialog, dialogapi, api
 
 When a dialog is created, a dialog instance API is returned. For example, `+const instanceApi = editor.windowManager.open(config);+`. The dialog API instance is also passed to some of the xref:dialog-configuration.adoc#options[dialog configuration options].

@@ -1,6 +1,6 @@
-= Installing TinyMCE from NPM
+= Installing OpenTiny from NPM
 :navtitle: NPM projects
-:description: Learn how to install TinyMCE from NPM using npm and Yarn.
+:description: Learn how to install OpenTiny from NPM using npm and Yarn.
 :keywords: yarn, npm, javascript, install
 :productSource: npm
 

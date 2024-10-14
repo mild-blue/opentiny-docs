@@ -1,10 +1,10 @@
 = tinymce.Event
 :navtitle: tinymce.Event
-:description: This is the base class for all TinyMCE events.
+:description: This is the base class for all OpenTiny events.
 :keywords: isDefaultPrevented, isImmediatePropagationStopped, isPropagationStopped, preventDefault, stopImmediatePropagation, stopPropagation, type
 :moxie-type: api
 
-This is the base class for all TinyMCE events.
+This is the base class for all OpenTiny events.
 
 [[summary]]
 == Summary

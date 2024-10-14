@@ -126,7 +126,7 @@ try {
 ?>
 ----
 
-==== TinyMCE example using the jwt.php endpoint
+==== OpenTiny example using the jwt.php endpoint
 
 [source,js]
 ----
@@ -141,7 +141,7 @@ tinymce.init({
 [[node-js-token-provider-endpoint-example]]
 === Node.js token provider endpoint example
 
-This example shows you how to set up a Node.js express handler that produces the tokens. It requires you to install the Express web framework and the `+jsonwebtoken+` Node modules. For instructions on setting up a basic Node.js Express server and adding {productname}, see: xref:expressjs-pm.adoc[Integrating TinyMCE into an Express JS App].
+This example shows you how to set up a Node.js express handler that produces the tokens. It requires you to install the Express web framework and the `+jsonwebtoken+` Node modules. For instructions on setting up a basic Node.js Express server and adding {productname}, see: xref:expressjs-pm.adoc[Integrating OpenTiny into an Express JS App].
 
 `+privateKey+` should be the _private_ key that pairs with the _public_ key generated at (or provided to) link:{accountjwturl}[{accountpage} - JWT Keys].
 
@@ -190,7 +190,7 @@ app.post('/jwt', (req, res) => {
 app.listen(3000);
 ----
 
-==== TinyMCE example using the /jwt endpoint
+==== OpenTiny example using the /jwt endpoint
 
 [source,js]
 ----

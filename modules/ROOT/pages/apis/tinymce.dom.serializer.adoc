@@ -1,10 +1,10 @@
 = tinymce.dom.Serializer
 :navtitle: tinymce.dom.Serializer
-:description: This class is used to serialize DOM trees into a string. Consult the TinyMCE API Documentation for more details and examples on how to use this class.
+:description: This class is used to serialize DOM trees into a string. Consult the OpenTiny API Documentation for more details and examples on how to use this class.
 :keywords: addAttributeFilter, addNodeFilter, addRules, addTempAttr, getTempAttrs, removeAttributeFilter, removeNodeFilter, schema, serialize, setRules
 :moxie-type: api
 
-This class is used to serialize DOM trees into a string. Consult the TinyMCE API Documentation for more details and examples on how to use this class.
+This class is used to serialize DOM trees into a string. Consult the OpenTiny API Documentation for more details and examples on how to use this class.
 
 [[summary]]
 == Summary
@@ -21,7 +21,7 @@ and then execute the callback once it has finished parsing the document.|`xref:a
 and then execute the callback once it has finished parsing the document.|`xref:apis/tinymce.dom.serializer.adoc[Serializer]`
 |xref:#addRules[addRules()]|Adds valid elements rules to the serializers schema instance this enables you to specify things
 like what elements should be outputted and what attributes specific elements might have.
-Consult the TinyMCE Documentation for more details on this format.|`xref:apis/tinymce.dom.serializer.adoc[Serializer]`
+Consult the OpenTiny Documentation for more details on this format.|`xref:apis/tinymce.dom.serializer.adoc[Serializer]`
 |xref:#addTempAttr[addTempAttr()]|Adds a temporary internal attribute these attributes will get removed on undo and
 when getting contents out of the editor.|`xref:apis/tinymce.dom.serializer.adoc[Serializer]`
 |xref:#getTempAttrs[getTempAttrs()]|Returns an array of all added temp attrs names.|`xref:apis/tinymce.dom.serializer.adoc[Serializer]`
@@ -30,7 +30,7 @@ when getting contents out of the editor.|`xref:apis/tinymce.dom.serializer.adoc[
 |xref:#serialize[serialize()]|Serializes the specified browser DOM node into a HTML string.|`xref:apis/tinymce.dom.serializer.adoc[Serializer]`
 |xref:#setRules[setRules()]|Sets the valid elements rules to the serializers schema instance this enables you to specify things
 like what elements should be outputted and what attributes specific elements might have.
-Consult the TinyMCE Documentation for more details on this format.|`xref:apis/tinymce.dom.serializer.adoc[Serializer]`
+Consult the OpenTiny Documentation for more details on this format.|`xref:apis/tinymce.dom.serializer.adoc[Serializer]`
 |===
 
 [[methods]]
@@ -97,7 +97,7 @@ addRules(rules: String)
 ----
 Adds valid elements rules to the serializers schema instance this enables you to specify things
 like what elements should be outputted and what attributes specific elements might have.
-Consult the TinyMCE Documentation for more details on this format.
+Consult the OpenTiny Documentation for more details on this format.
 
 ==== Parameters
 
@@ -207,7 +207,7 @@ setRules(rules: String)
 ----
 Sets the valid elements rules to the serializers schema instance this enables you to specify things
 like what elements should be outputted and what attributes specific elements might have.
-Consult the TinyMCE Documentation for more details on this format.
+Consult the OpenTiny Documentation for more details on this format.
 
 ==== Parameters
 

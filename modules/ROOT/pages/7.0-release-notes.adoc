@@ -1,6 +1,6 @@
-= TinyMCE 7.0
-:navtitle: TinyMCE 7.0
-:description: Release notes for TinyMCE 7.0
+= OpenTiny 7.0
+:navtitle: OpenTiny 7.0
+:description: Release notes for OpenTiny 7.0
 :keywords: releasenotes, new, changes, bugfixes
 :page-toclevels: 1
 
@@ -107,7 +107,7 @@ This release introduces a new `trigger` property for block text pattern configur
 
 In {productname} 7.0 the default preconfigured text patterns **was changed from**:
 
-[[example-preconfigured-text-patterns-prior-to-TinyMCE-7.0]]
+[[example-preconfigured-text-patterns-prior-to-OpenTiny-7.0]]
 .Example preconfigured text_patterns prior to {productname} 7.0
 [source, js]
 ----

@@ -1,6 +1,6 @@
-= TinyMCE <x.y[.z]>
-:navtitle: TinyMCE <x.y[.z]>
-:description: Release notes for TinyMCE <x.y[.z]>
+= OpenTiny <x.y[.z]>
+:navtitle: OpenTiny <x.y[.z]>
+:description: Release notes for OpenTiny <x.y[.z]>
 :keywords: releasenotes, new, changes, bugfixes
 :page-toclevels: 1
 

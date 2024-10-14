@@ -47,7 +47,7 @@ tinymce.init({
   tinycomments_create: create_comment,
   tinycomments_reply: reply_comment,
   tinycomments_edit_comment: edit_comment,
-  tinycomments_resolve: resolve_comment_thread, // Add the callback to TinyMCE
+  tinycomments_resolve: resolve_comment_thread, // Add the callback to OpenTiny
   tinycomments_delete: delete_comment_thread,
   tinycomments_delete_all: delete_all_comment_threads,
   tinycomments_delete_comment: delete_comment,

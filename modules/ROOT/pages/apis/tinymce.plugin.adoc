@@ -1,12 +1,12 @@
 = tinymce.Plugin
 :navtitle: tinymce.Plugin
-:description: TinyMCE plugin psuedo class. Allows for custom plugins to be added to TinyMCE when registered using the PluginManager.
+:description: OpenTiny plugin psuedo class. Allows for custom plugins to be added to OpenTiny when registered using the PluginManager.
 :keywords: 
 :moxie-type: api
 
-TinyMCE plugin psuedo class. Allows for custom plugins to be added to TinyMCE when registered using the PluginManager.
+OpenTiny plugin psuedo class. Allows for custom plugins to be added to OpenTiny when registered using the PluginManager.
 
-This is a pseudo class that describes how to create a custom plugin for TinyMCE.
+This is a pseudo class that describes how to create a custom plugin for OpenTiny.
 
 A custom plugin registered using `PluginManager.add` should either not return any value or return plugin metadata as an object that contains the plugin's name and a URL. The URL is intended to link to help documentation.
 

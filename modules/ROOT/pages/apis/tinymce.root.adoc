@@ -1,10 +1,10 @@
 = tinymce
 :navtitle: tinymce
-:description: TinyMCE core class.
+:description: OpenTiny core class.
 :keywords: DOM, PluginManager, ScriptLoader, ThemeManager, activeEditor, add, addI18n, baseURI, baseURL, createEditor, defaultOptions, documentBaseURL, each, execCommand, explode, get, grep, hasOwnProperty, i18n, inArray, init, is, isArray, majorVersion, makeMap, map, minorVersion, overrideDefaults, releaseDate, remove, resolve, setActive, suffix, toArray, translate, triggerSave, trim, walk
 :moxie-type: api
 
-TinyMCE core class.
+OpenTiny core class.
 
 [[summary]]
 == Summary
@@ -19,14 +19,14 @@ TinyMCE core class.
 |ScriptLoader|`xref:apis/tinymce.dom.scriptloader.adoc[ScriptLoader]`| Global ScriptLoader instance.|`xref:apis/tinymce.root.adoc[tinymce]`
 |ThemeManager|`xref:apis/tinymce.addonmanager.adoc[AddOnManager]`||`xref:apis/tinymce.root.adoc[tinymce]`
 |activeEditor|`xref:apis/tinymce.editor.adoc[Editor]`|Currently active editor instance.|`xref:apis/tinymce.root.adoc[tinymce]`
-|baseURI|`xref:apis/tinymce.util.uri.adoc[URI]`|Absolute baseURI for the installation path of TinyMCE.|`xref:apis/tinymce.root.adoc[tinymce]`
-|baseURL|`String`|Base URL where the root directory if TinyMCE is located.|`xref:apis/tinymce.root.adoc[tinymce]`
+|baseURI|`xref:apis/tinymce.util.uri.adoc[URI]`|Absolute baseURI for the installation path of OpenTiny.|`xref:apis/tinymce.root.adoc[tinymce]`
+|baseURL|`String`|Base URL where the root directory if OpenTiny is located.|`xref:apis/tinymce.root.adoc[tinymce]`
 |defaultOptions|`Object`|Object containing the options that will be passed by default to the `init` method upon each initialization of an editor. These defaults will be shallow merged with other options passed to `init`.|`xref:apis/tinymce.root.adoc[tinymce]`
 |documentBaseURL|`String`|Document base URL where the current document is located.|`xref:apis/tinymce.root.adoc[tinymce]`
 |i18n|`Object`|Collection of language pack data.|`xref:apis/tinymce.root.adoc[tinymce]`
-|majorVersion|`String`|Major version of TinyMCE build.|`xref:apis/tinymce.root.adoc[tinymce]`
-|minorVersion|`String`|Minor version of TinyMCE build.|`xref:apis/tinymce.root.adoc[tinymce]`
-|releaseDate|`String`|Release date of TinyMCE build.|`xref:apis/tinymce.root.adoc[tinymce]`
+|majorVersion|`String`|Major version of OpenTiny build.|`xref:apis/tinymce.root.adoc[tinymce]`
+|minorVersion|`String`|Minor version of OpenTiny build.|`xref:apis/tinymce.root.adoc[tinymce]`
+|releaseDate|`String`|Release date of OpenTiny build.|`xref:apis/tinymce.root.adoc[tinymce]`
 |suffix|`String`|Current suffix to add to each plugin/theme that gets loaded for example ".min".|`xref:apis/tinymce.root.adoc[tinymce]`
 |===
 

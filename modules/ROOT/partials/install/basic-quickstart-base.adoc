@@ -30,7 +30,7 @@ ifeval::["{productSource}" != "cloud"]
 :scriptsource: /path/or/uri/to/tinymce.min.js
 endif::[]
 
-== Install TinyMCE using {sourcename}
+== Install OpenTiny using {sourcename}
 
 {productname} {productmajorversion} is a powerful and flexible rich text editor that can be embedded in web applications. This quick start covers how to add a {productname} editor to a web page using {sourcename}.
 
@@ -91,14 +91,14 @@ To add {productname} to a .NET project, run the following on a command line:
 +
 [source,sh]
 ----
-Install-Package TinyMCE
+Install-Package OpenTiny
 ----
 
 * Using the `+dotnet+` CLI, run the following:
 +
 [source,sh]
 ----
-dotnet add package TinyMCE
+dotnet add package OpenTiny
 ----
 
 Ensure the `+tinymce+` directory containing the `+tinymce.min.js+` file is accessible for the target page or application by either:
@@ -123,7 +123,7 @@ The location of the main {productname} script will be: `+/path/to/webserver/publ
 
 endif::[]
 
-== Include the TinyMCE script
+== Include the OpenTiny script
 
 Include the following line of code in the `+<head>+` of an HTML page.
 
@@ -132,7 +132,7 @@ Include the following line of code in the `+<head>+` of an HTML page.
 <script src="{scriptsource}" referrerpolicy="origin"></script>
 ----
 
-== Initialize TinyMCE as part of a web form
+== Initialize OpenTiny as part of a web form
 
 Initialize {productname} {productmajorversion} on any element (or elements) on the web page by passing an object containing a `+selector+` value to `+tinymce.init()+`. The `+selector+` value can be any valid https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors[CSS selector].
 
@@ -165,7 +165,7 @@ For example:
 </html>
 ----
 
-Adding this content to an HTML file and opening it in a web browser will load a TinyMCE editor, such as:
+Adding this content to an HTML file and opening it in a web browser will load a OpenTiny editor, such as:
 
 liveDemo::default[]
 ifeval::["{productSource}" == "cloud"]

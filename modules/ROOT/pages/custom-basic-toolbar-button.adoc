@@ -1,6 +1,6 @@
 = Creating custom Basic toolbar buttons
 :navtitle: Basic toolbar button
-:description: Creating custom Basic toolbar buttons for TinyMCE
+:description: Creating custom Basic toolbar buttons for OpenTiny
 :keywords: toolbar, toolbarbuttons, buttons, toolbarbuttonsapi
 
 A basic button triggers its `+onAction+` function when clicked.

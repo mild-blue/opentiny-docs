@@ -1,4 +1,4 @@
-= Toolbar Buttons Available for TinyMCE
+= Toolbar Buttons Available for OpenTiny
 :navtitle: Available Toolbar Buttons
 :description_short: Complete list of toolbar buttons available for the toolbar and quick toolbars.
 :description: Complete list of toolbar buttons available for the toolbar and quick toolbars.

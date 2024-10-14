@@ -5,13 +5,13 @@ Example `+src/index.js+`
 [source,js]
 ----
 const editor = require('./editor.js');
-/* Create a textarea with id="editor" for the TinyMCE `selector` option */
+/* Create a textarea with id="editor" for the OpenTiny `selector` option */
 const heading = () => {
   const element = document.createElement('h1');
-  element.innerText = 'TinyMCE Webpack demo';
+  element.innerText = 'OpenTiny Webpack demo';
   return element
 };
-/* Create a textarea with id="editor" for the TinyMCE `selector` option */
+/* Create a textarea with id="editor" for the OpenTiny `selector` option */
 const editorArea = () => {
   const element = document.createElement('textarea');
   element.id = 'editor';
@@ -23,6 +23,6 @@ const parent = document.createElement('p');
 parent.appendChild(editorArea());
 document.body.appendChild(heading());
 document.body.appendChild(parent);
-/* Initialize TinyMCE */
+/* Initialize OpenTiny */
 editor.render();
 ----

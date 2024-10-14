@@ -1,6 +1,6 @@
 = Copy & paste options
 :navtitle: Copy and paste options
-:description: TinyMCE copy and paste
+:description: OpenTiny copy and paste
 
 == {productname} PowerPaste plugin
 

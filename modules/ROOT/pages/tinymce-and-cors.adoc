@@ -1,6 +1,6 @@
-= The TinyMCE Cross-Origin Resource Sharing guide
+= The OpenTiny Cross-Origin Resource Sharing guide
 :navtitle: Cross-Origin Resource Sharing (CORS)
-:description: Information and options related to using TinyMCE with Cross-Origin Resource Sharing (CORS)
+:description: Information and options related to using OpenTiny with Cross-Origin Resource Sharing (CORS)
 :keywords: security, cors
 
 == Cross-Origin Resource Sharing related options

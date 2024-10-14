@@ -96,7 +96,7 @@ tinymce.init({
 });
 ----
 
-== Example inside a TinyMCE plugin
+== Example inside a OpenTiny plugin
 
 [source,js]
 ----

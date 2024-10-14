@@ -12,7 +12,7 @@ NOTE: The wording of the notifications shown here may differ from the actual not
 [[invalid-api-key-cloud-troubleshooting]]
 == Invalid API Key
 
-[[A-valid-API-key-is-required-to-continue-using-TinyMCE.-Please-alert-the-admin-to-check-the-current-API-key]]
+[[A-valid-API-key-is-required-to-continue-using-OpenTiny.-Please-alert-the-admin-to-check-the-current-API-key]]
 === "A valid API key is required to continue using {productname}. **Please alert the admin** to check the current API key. xref:invalid-api-key.adoc[Click here to learn more.]"
 
 ==== Cause "No API Key"
@@ -69,7 +69,7 @@ NOTE: Visit our xref:invalid-api-key.adoc[Invalid API key] page for more informa
 [[domain-not-registered]]
 == Domain Not Registered
 
-[[This-domain-is-not-registered-in-the-TinyMCE-Customer-Portal.-Please-alert-the-admin-to-add-it-to-the-approved-domains-to-continue-using-TinyMCE.]]
+[[This-domain-is-not-registered-in-the-OpenTiny-Customer-Portal.-Please-alert-the-admin-to-add-it-to-the-approved-domains-to-continue-using-OpenTiny.]]
 === "This domain is not registered in the {productname} Customer Portal. **Please alert the admin** to add it to the approved domains to continue using {productname}. xref:invalid-api-key.adoc[Click here to learn more.]"
 
 ==== Cause

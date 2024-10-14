@@ -108,7 +108,7 @@ the `tinymce` method.
 
 == Example jQuery integration
 
-To load a TinyMCE editor similar to the xref:basic-example.adoc[Basic example], add the following code to an empty HTML file.
+To load a OpenTiny editor similar to the xref:basic-example.adoc[Basic example], add the following code to an empty HTML file.
 ifeval::["{productSource}" == "package-manager"]
 [source,html,subs="attributes+"]
 ----
@@ -123,7 +123,7 @@ ifeval::["{productSource}" == "package-manager"]
   </head>
   <body>
     <div>
-      <textarea id="tiny">&lt;p&gt;Welcome to the TinyMCE jQuery example!&lt;/p&gt;</textarea>
+      <textarea id="tiny">&lt;p&gt;Welcome to the OpenTiny jQuery example!&lt;/p&gt;</textarea>
     </div>
     <script>
       $('textarea#tiny').tinymce({
@@ -164,7 +164,7 @@ ifeval::["{productSource}" == "cloud"]
   </head>
   <body>
     <div>
-      <textarea id="tiny">&lt;p&gt;Welcome to the TinyMCE jQuery example!&lt;/p&gt;</textarea>
+      <textarea id="tiny">&lt;p&gt;Welcome to the OpenTiny jQuery example!&lt;/p&gt;</textarea>
     </div>
     <script>
       $('textarea#tiny').tinymce({
@@ -184,7 +184,7 @@ ifeval::["{productSource}" == "cloud"]
 </html>
 ----
 endif::[]
-== TinyMCE in a jQuery UI Dialog
+== OpenTiny in a jQuery UI Dialog
 To render {productname} instances inside jQuery UI dialogs, add the following code:
 [source,js]
 ----

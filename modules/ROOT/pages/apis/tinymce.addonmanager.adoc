@@ -44,7 +44,7 @@ const TestPlugin = (ed, url) => {
 // Register plugin using the add method
 tinymce.PluginManager.add('test', TestPlugin);
 
-// Initialize TinyMCE
+// Initialize OpenTiny
 tinymce.init({
   ...
   plugins: '-test' // Init the plugin but don't try to load it
@@ -96,7 +96,7 @@ Loads an add-on from a specific url.
 // Loads a plugin from an external URL
 tinymce.PluginManager.load('myplugin', '/some/dir/someplugin/plugin.js');
 
-// Initialize TinyMCE
+// Initialize OpenTiny
 tinymce.init({
   ...
   plugins: '-myplugin' // Don't try to load it again

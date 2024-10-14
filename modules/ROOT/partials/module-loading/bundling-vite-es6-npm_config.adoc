@@ -8,7 +8,7 @@ import * as editor from './editor';
 
 const heading = () => {
   const element = document.createElement('h1');
-  element.innerText = 'TinyMCE Vite demo';
+  element.innerText = 'OpenTiny Vite demo';
   return element;
 };
 

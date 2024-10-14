@@ -1,7 +1,7 @@
 = Accessibility options
 :navtitle: Accessibility
-:description_short: Configure the accessibility of TinyMCE.
-:description: Configure the accessibility of TinyMCE.
+:description_short: Configure the accessibility of OpenTiny.
+:description: Configure the accessibility of OpenTiny.
 
 include::partial$configuration/a11y_advanced_options.adoc[]
 

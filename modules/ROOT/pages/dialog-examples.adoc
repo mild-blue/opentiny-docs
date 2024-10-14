@@ -1,6 +1,6 @@
 = Interactive examples of custom dialogs
 :navtitle: Interactive examples
-:description: Interactive examples of custom dialogs for TinyMCE.
+:description: Interactive examples of custom dialogs for OpenTiny.
 :keywords: dialog, dialogapi, api
 
 [[basic-interactive-dialog]]

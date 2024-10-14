@@ -1,6 +1,6 @@
-= Localize TinyMCE
+= Localize OpenTiny
 :navtitle: Localization
-:description: Localize TinyMCE with global language capabilities.
+:description: Localize OpenTiny with global language capabilities.
 :keywords: internationalization, localization, languages
 
 {productname} makes your project accessible to the world through its simple localization framework.

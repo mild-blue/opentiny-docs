@@ -1,7 +1,7 @@
-= Bundling TinyMCE models using module loading
+= Bundling OpenTiny models using module loading
 :navtitle: Models
 :description_short: Information on bundling models
-:description: Information on bundling TinyMCE models using module loading
+:description: Information on bundling OpenTiny models using module loading
 
 :editorcomponent: model
 include::partial$module-loading/bundling-ref-example.adoc[]

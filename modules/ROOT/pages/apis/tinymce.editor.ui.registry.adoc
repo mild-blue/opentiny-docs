@@ -1,10 +1,10 @@
 = tinymce.editor.ui.Registry
 :navtitle: tinymce.editor.ui.Registry
-:description: TinyMCE UI registration API.
+:description: OpenTiny UI registration API.
 :keywords: addAutocompleter, addButton, addContextForm, addContextMenu, addContextToolbar, addGroupToolbarButton, addIcon, addMenuButton, addMenuItem, addNestedMenuItem, addSidebar, addSplitButton, addToggleButton, addToggleMenuItem, addView
 :moxie-type: api
 
-TinyMCE UI registration API.
+OpenTiny UI registration API.
 
 [[summary]]
 == Summary
@@ -51,7 +51,7 @@ For information on creating a group toolbar button, see:
 link:https://www.tiny.cloud/docs/tinymce/6/custom-group-toolbar-button/[
 UI Components - Types of toolbar buttons: Group toolbar button].|`xref:apis/tinymce.editor.ui.registry.adoc[Registry]`
 |xref:#addIcon[addIcon()]|Registers a new SVG icon. The icon name reference can be configured by any
-TinyMCE UI components that can display an icon. The icon is only available
+OpenTiny UI components that can display an icon. The icon is only available
 to the editor instance it was configured for.|`xref:apis/tinymce.editor.ui.registry.adoc[Registry]`
 |xref:#addMenuButton[addMenuButton()]|Registers a new menu button. Adds a toolbar button that opens a menu when
 clicked. The menu can be populated by items created by addMenuItem,
@@ -235,7 +235,7 @@ UI Components - Types of toolbar buttons: Group toolbar button].
 addIcon(name: String, svgData: String)
 ----
 Registers a new SVG icon. The icon name reference can be configured by any
-TinyMCE UI components that can display an icon. The icon is only available
+OpenTiny UI components that can display an icon. The icon is only available
 to the editor instance it was configured for.
 
 ==== Examples

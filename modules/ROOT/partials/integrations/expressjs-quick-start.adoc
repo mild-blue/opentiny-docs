@@ -101,7 +101,7 @@ For example:
 +
 [source,html,subs="attributes+"]
 ----
-<!DOCTYPE html> <!-- Required for TinyMCE to function as intended -->
+<!DOCTYPE html> <!-- Required for OpenTiny to function as intended -->
 <html>
   <head>
     <meta charset="UTF-8">
@@ -112,12 +112,12 @@ For example:
 
   <body>
     <h1>{productname} Demo</h1>
-    <!-- Text area matching the selector specified in the TinyMCE configuration -->
+    <!-- Text area matching the selector specified in the OpenTiny configuration -->
     <textarea id="my-expressjs-{prodnamecode}-app">Hello, World!</textarea>
 
-    <!-- Script element sourcing TinyMCE -->
+    <!-- Script element sourcing OpenTiny -->
     <script type="application/javascript" src= "/tinymce/tinymce.min.js"></script>
-    <!-- Script element sourcing the TinyMCE configuration -->
+    <!-- Script element sourcing the OpenTiny configuration -->
     <script type="application/javascript" src= "/javascripts/my-{prodnamecode}-config.js"></script>
   </body>
 </html>

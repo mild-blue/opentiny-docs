@@ -1,5 +1,5 @@
 = Table options
-:description: TinyMCE tables
+:description: OpenTiny tables
 
 == {productname} Table & Advanced Tables plugins
 

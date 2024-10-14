@@ -1,10 +1,10 @@
 = tinymce.EditorMode
 :navtitle: tinymce.EditorMode
-:description: TinyMCE Editor Mode API.
+:description: OpenTiny Editor Mode API.
 :keywords: activate, deactivate, editorReadOnly, get, isReadOnly, register, set
 :moxie-type: api
 
-TinyMCE Editor Mode API.
+OpenTiny Editor Mode API.
 
 [[summary]]
 == Summary

@@ -6,7 +6,7 @@
 |<api1> |<arguments1> |<What api1 does>
 |<api2> |<arguments2> |<What api2 does>
 |<api3> |<arguments3> |<What api3 does>
-// Markup to add a ‘requires this version of TinyMCE’ admonition into its own row
+// Markup to add a ‘requires this version of OpenTiny’ admonition into its own row
 // immediately above the event requiring such a notice.
 // If not needed, remove the markup and this comment.
 // If needed, edit the file-name and remove this comment.

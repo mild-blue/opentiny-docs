@@ -1,8 +1,8 @@
 *Covered in this section:*
 
 * xref:supported-angular-versions[Supported Angular versions]
-* xref:installing-the-tinymce-angular-integration-using-npm[Installing the TinyMCE Angular integration using NPM]
-* xref:using-the-tinymce-angular-integration[Using the TinyMCE Angular integration]
+* xref:installing-the-tinymce-angular-integration-using-npm[Installing the OpenTiny Angular integration using NPM]
+* xref:using-the-tinymce-angular-integration[Using the OpenTiny Angular integration]
 * xref:configuring-the-editor[Configuring the editor]
 ** xref:apikey[`+apiKey+`]
 ** xref:cloudchannel[`+cloudChannel+`]
@@ -20,7 +20,7 @@
 * xref:using-with-reactive-forms[Using with reactive forms]
 * xref:event-binding[Event binding]
 ** xref:supported-browser-events[Supported browser events]
-** xref:supported-tinymce-events[Supported TinyMCE events]
+** xref:supported-tinymce-events[Supported OpenTiny events]
 ** xref:allowedevents[`+allowedEvents+`]
 ** xref:ignoreevents[`+ignoreEvents+`]
 
@@ -39,7 +39,7 @@ The following table shows the supported versions of Angular and the required ver
 |===
 
 [[installing-the-tinymce-angular-integration-using-npm]]
-== Installing the TinyMCE Angular integration using NPM
+== Installing the OpenTiny Angular integration using NPM
 
 To install the `+tinymce-angular+` package and save it to your `+package.json+`.
 
@@ -49,7 +49,7 @@ npm install --save @tinymce/tinymce-angular
 ----
 
 [[using-the-tinymce-angular-integration]]
-== Using the TinyMCE Angular integration
+== Using the OpenTiny Angular integration
 
 . Import the `+EditorModule+` from the npm package using:
 +
@@ -356,7 +356,7 @@ Used to specify the events that trigger the `+NgModelChange+` to emit.
 
 *Default value:* `+'change input undo redo'+`.
 
-*Possible values:* A space separated list of TinyMCE editor events.
+*Possible values:* A space separated list of OpenTiny editor events.
 
 ==== Example: using `+modelEvents+`
 
@@ -394,7 +394,7 @@ Functions can be bound to editor events, such as:
 
 When the handler is called (`+handleEvent+` in this example), it is called with an event containing two properties:
 
-* `+event+` - The TinyMCE event object.
+* `+event+` - The OpenTiny event object.
 * `+editor+` - A reference to the editor.
 
 The following events are available:
@@ -432,7 +432,7 @@ The following events are available:
 * `+onSelectionChange+`
 
 [[supported-tinymce-events]]
-=== Supported TinyMCE events
+=== Supported OpenTiny events
 
 * `+onActivate+`
 * `+onAddUndo+`

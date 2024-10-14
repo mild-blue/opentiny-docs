@@ -1,6 +1,6 @@
-= TinyMCE Web Component technical reference
+= OpenTiny Web Component technical reference
 :navtitle: Technical reference
-:description: Technical reference for the TinyMCE Web Component
+:description: Technical reference for the OpenTiny Web Component
 :keywords: integration, integrate, web-component
 
 include::partial$integrations/webcomponent-tech-ref.adoc[]

@@ -1,7 +1,7 @@
 = Inline editor example
 :navtitle: Inline editor
 :description_short: See how inline editor works.
-:description: This example shows you the inline editing capabilities of TinyMCE.
+:description: This example shows you the inline editing capabilities of OpenTiny.
 :keywords: example, demo, custom, inline
 
 This example shows you the inline editing capabilities of {productname}.

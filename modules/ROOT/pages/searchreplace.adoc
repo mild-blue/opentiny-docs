@@ -1,6 +1,6 @@
 = Search and Replace plugin
 :navtitle: Search and Replace
-:description: Find and replace content in TinyMCE.
+:description: Find and replace content in OpenTiny.
 :keywords: searchreplace, edit
 :pluginname: Search and Replace
 :plugincode: searchreplace

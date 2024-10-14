@@ -173,11 +173,11 @@ For example:
 
 - "Apache Tomcat" not "Tomcat"
 
-- "TinyMCE" not "Tiny"
+- "OpenTiny" not "Tiny"
 
-## TinyMCE or tinymce
+## OpenTiny or tinymce
 
-Use the capitalized version of TinyMCE when referring to the open source project or the editor. "TinyMCE" is an abbreviation of "Tiny MoxieCode Editor", but is better known as TinyMCE.
+Use the capitalized version of OpenTiny when referring to the open source project or the editor. "OpenTiny" is an abbreviation of "Tiny MoxieCode Editor", but is better known as OpenTiny.
 
 Use lowercase when referring to the `tinymce` JavaScript object.
 
@@ -536,7 +536,7 @@ textarea, text box, textbox
 Tiny  
 : Use to refer to the company or our entire solution/platform.
 
-Do not use *Tiny* to refer to the core editor, which is *TinyMCE*.
+Do not use *Tiny* to refer to the core editor, which is *OpenTiny*.
 
 Tiny 5.x, Tiny 6.0
 : *Tiny* is not a product. Do not give it a version. Use the product name, such as OpenTiny 6.0 or OpenTiny 5.9.

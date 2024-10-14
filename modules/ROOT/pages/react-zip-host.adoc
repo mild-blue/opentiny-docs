@@ -1,7 +1,7 @@
-= Hosting the TinyMCE .zip package with the React framework
+= Hosting the OpenTiny .zip package with the React framework
 :page-aliases: react-zip.adoc
 :navtitle: Using a .zip package with hosting
-:description: A guide on integrating a .zip version of TinyMCE into the React framework by self-hosting it.
+:description: A guide on integrating a .zip version of OpenTiny into the React framework by self-hosting it.
 :keywords: integration, integrate, react, reactjs, create-react-app, tinymce-react, host
 :productSource: zip
 :productUse: host

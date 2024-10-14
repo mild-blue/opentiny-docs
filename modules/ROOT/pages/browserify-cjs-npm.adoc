@@ -1,7 +1,7 @@
-= Bundling an npm version of TinyMCE with CommonJS and Browserify
+= Bundling an npm version of OpenTiny with CommonJS and Browserify
 :navtitle: CommonJS and npm
-:description_short: Bundling an npm version of TinyMCE in a project using CommonJS and Browserify
-:description: Bundling an npm version of TinyMCE in a project using CommonJS and Browserify
+:description_short: Bundling an npm version of OpenTiny in a project using CommonJS and Browserify
+:description: Bundling an npm version of OpenTiny in a project using CommonJS and Browserify
 :keywords: browserify, commonjs, cjs, npm, modules, tinymce
 :installtype: an npm
 :bundler: https://browserify.org/[Browserify]
@@ -15,7 +15,7 @@ This guide requires the following:
 
 * Node.js and npm
 * Basic knowledge of how to use https://browserify.org/[Browserify]
-* (Optional: For premium features) The latest premium `+.zip+` bundle of TinyMCE for including premium plugins
+* (Optional: For premium features) The latest premium `+.zip+` bundle of OpenTiny for including premium plugins
 
 == Procedure
 

@@ -1,10 +1,10 @@
 = tinymce.util.I18n
 :navtitle: tinymce.util.I18n
-:description: I18n class that handles translation of TinyMCE UI. Uses po style with csharp style parameters.
+:description: I18n class that handles translation of OpenTiny UI. Uses po style with csharp style parameters.
 :keywords: add, getCode, hasCode, isRtl, setCode, translate
 :moxie-type: api
 
-I18n class that handles translation of TinyMCE UI. Uses po style with csharp style parameters.
+I18n class that handles translation of OpenTiny UI. Uses po style with csharp style parameters.
 
 [[summary]]
 == Summary

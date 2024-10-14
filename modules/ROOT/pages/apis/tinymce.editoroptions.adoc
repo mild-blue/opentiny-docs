@@ -1,10 +1,10 @@
 = tinymce.EditorOptions
 :navtitle: tinymce.EditorOptions
-:description: TinyMCE Editor Options API. The options API provides the ability to register, lookup and set editor options.
+:description: OpenTiny Editor Options API. The options API provides the ability to register, lookup and set editor options.
 :keywords: get, isRegistered, isSet, register, set, unset
 :moxie-type: api
 
-TinyMCE Editor Options API. The options API provides the ability to register, lookup and set editor options.
+OpenTiny Editor Options API. The options API provides the ability to register, lookup and set editor options.
 
 All options need to be registered before they can be used in the editor. This is done by using the `register()` API which requires a name and an option specification. The specification should contain a `processor` and an optional `default` value. The processor is used to parse and validate the option value either passed in the initial configuration or via the `set()` API.
 
@@ -48,7 +48,7 @@ editor.options.set('custom_option', 'value');
 |xref:#get[get()]|Get the value of a registered option.|`xref:apis/tinymce.editoroptions.adoc[EditorOptions]`
 |xref:#isRegistered[isRegistered()]|Check if an option has been registered.|`xref:apis/tinymce.editoroptions.adoc[EditorOptions]`
 |xref:#isSet[isSet()]|Checks to see if a value has been set for the specified option.|`xref:apis/tinymce.editoroptions.adoc[EditorOptions]`
-|xref:#register[register()]|Register a new option that can be used within TinyMCE.|`xref:apis/tinymce.editoroptions.adoc[EditorOptions]`
+|xref:#register[register()]|Register a new option that can be used within OpenTiny.|`xref:apis/tinymce.editoroptions.adoc[EditorOptions]`
 |xref:#set[set()]|Set the value for a registered option.|`xref:apis/tinymce.editoroptions.adoc[EditorOptions]`
 |xref:#unset[unset()]|Clear the set value for the specified option and revert back to the default value.|`xref:apis/tinymce.editoroptions.adoc[EditorOptions]`
 |===
@@ -116,7 +116,7 @@ Checks to see if a value has been set for the specified option.
 ----
 register(name: String, spec: OptionSpec)
 ----
-Register a new option that can be used within TinyMCE.
+Register a new option that can be used within OpenTiny.
 
 ==== Parameters
 

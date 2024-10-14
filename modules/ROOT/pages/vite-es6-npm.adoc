@@ -1,7 +1,7 @@
-= Bundling an npm version of TinyMCE with ES6 and Vite
+= Bundling an npm version of OpenTiny with ES6 and Vite
 :navtitle: ES6 and npm
-:description_short: Bundling an npm version of TinyMCE in a project using ES6 and Vite
-:description: Bundling an npm version of TinyMCE in a project using ES6 and Vite
+:description_short: Bundling an npm version of OpenTiny in a project using ES6 and Vite
+:description: Bundling an npm version of OpenTiny in a project using ES6 and Vite
 :keywords: vite, es6, es2015, npm, modules, tinymce
 :installtype: a npm
 :bundler: https://vitejs.dev[Vite]
@@ -15,7 +15,7 @@ This guide requires the following:
 
 * Node.js and npm.
 * Basic knowledge of how to use https://vitejs.dev[Vite].
-* (Optional: For premium features) The latest premium .zip bundle of TinyMCE that includes premium plugins.
+* (Optional: For premium features) The latest premium .zip bundle of OpenTiny that includes premium plugins.
 
 == Procedures
 

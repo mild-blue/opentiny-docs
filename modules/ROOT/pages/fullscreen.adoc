@@ -1,6 +1,6 @@
 = Full Screen plugin
 :navtitle: Full Screen
-:description: Zoom TinyMCE up to the whole screen.
+:description: Zoom OpenTiny up to the whole screen.
 :keywords: fullscreen, view
 :pluginname: Full Screen
 :plugincode: fullscreen

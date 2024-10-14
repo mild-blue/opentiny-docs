@@ -1,6 +1,6 @@
 = Enhanced Image Editing (formerly Image Tools)
 :navtitle: Enhanced Image Editing
-:description: Enhanced image editing features for TinyMCE.
+:description: Enhanced image editing features for OpenTiny.
 :keywords: edit, image, rotate, rotateleft, rotateright, flip, flipv, fliph, editimage, imageoptions
 :pluginname: Enhanced Image Editing
 :plugincode: editimage

@@ -1,7 +1,7 @@
 = Classic editor example
 :navtitle: Classic editor mode
-:description_short: Configure TinyMCE classic editor.
-:description: This example shows you how to use TinyMCE classic editor.
+:description_short: Configure OpenTiny classic editor.
+:description: This example shows you how to use OpenTiny classic editor.
 :keywords: example, demo, classic editor
 
 == Interactive example

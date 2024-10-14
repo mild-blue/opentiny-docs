@@ -22,13 +22,13 @@ To insert a template
 
 . Select *Template…* from the *Insert* menu or +
   Select the *Insert template* image:icons/template.svg[Insert template] toolbar button.
-. Select the template to add to the TinyMCE document from the _Templates_ dialog that presents.
+. Select the template to add to the OpenTiny document from the _Templates_ dialog that presents.
 . Click *Insert* or press *Return*.
 
 === Adding a new template
 To add a new template
 
-. Select the material in the TinyMCE document that is going to be the new template and
+. Select the material in the OpenTiny document that is going to be the new template and
 
 . Save the template using one of the following methods:
      * Select *Save as template…* from the *Tools* menu.

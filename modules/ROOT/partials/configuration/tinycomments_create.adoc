@@ -58,7 +58,7 @@ tinymce.init({
   selector: 'textarea', // change this value according to your HTML
   plugins: 'tinycomments',
   tinycomments_mode: 'callback',
-  tinycomments_create: create_comment, // Add the callback to TinyMCE
+  tinycomments_create: create_comment, // Add the callback to OpenTiny
   tinycomments_reply: reply_comment,
   tinycomments_edit_comment: edit_comment,
   tinycomments_delete: delete_comment_thread,

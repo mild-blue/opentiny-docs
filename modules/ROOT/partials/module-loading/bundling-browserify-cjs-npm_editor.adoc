@@ -8,13 +8,13 @@ Example `+src/editor.js+`
 ----
 const fs = require('fs');
 
-/* Import TinyMCE */
+/* Import OpenTiny */
 const tinymce = require('tinymce/tinymce');
 
 /* Default icons are required. After that, import custom icons if applicable */
 require('tinymce/icons/default');
 
-/* Required TinyMCE components */
+/* Required OpenTiny components */
 require('tinymce/themes/silver');
 require('tinymce/models/dom');
 
@@ -36,7 +36,7 @@ const contentUiSkinCss = fs.readFileSync('node_modules/tinymce/skins/ui/oxide/co
 /* The default content CSS can be changed or replaced with appropriate CSS for the editor content. */
 const contentCss = fs.readFileSync('node_modules/tinymce/skins/content/default/content.css', { encoding: 'UTF-8' });
 
-/* Initialize TinyMCE */
+/* Initialize OpenTiny */
 exports.render = () => {
   tinymce.init({
     selector: 'textarea#editor',

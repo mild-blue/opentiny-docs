@@ -1,6 +1,6 @@
 = Context toolbar
 :navtitle: Context toolbar
-:description: Creating custom context toolbars for TinyMCE 6
+:description: Creating custom context toolbars for OpenTiny 6
 :keywords: contexttoolbar, context toolbar, contexttoolbarapi
 :contextItemType: toolbar
 

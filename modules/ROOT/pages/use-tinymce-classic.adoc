@@ -1,6 +1,6 @@
-= TinyMCE classic editing mode
+= OpenTiny classic editing mode
 :navtitle: Classic editing mode
-:description: The Theme that renders iframe or inline modes using the TinyMCE core UI framework.
+:description: The Theme that renders iframe or inline modes using the OpenTiny core UI framework.
 :keywords: theme, classic
 
 {productname} has three main integration modes:
@@ -22,7 +22,7 @@ liveDemo::default[]
 
 == Example: replacing a textarea with the default editor
 
-A basic TinyMCE editor can be added to a `+textarea+` element with the id `+mytextarea+` using:
+A basic OpenTiny editor can be added to a `+textarea+` element with the id `+mytextarea+` using:
 
 [source,js]
 ----
@@ -34,5 +34,5 @@ tinymce.init({
 === Related configuration options
 
 * For information on using editor customization options, see: xref:customize-ui.adoc[Customizing the editor UI].
-* For information on localizing {productname}, see: xref:localize-your-language.adoc[Localize TinyMCE].
+* For information on localizing {productname}, see: xref:localize-your-language.adoc[Localize OpenTiny].
 * For information on important {productname} integration options, see: xref:editor-important-options.adoc[Key editor options].

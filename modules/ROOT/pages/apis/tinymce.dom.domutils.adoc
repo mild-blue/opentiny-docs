@@ -41,14 +41,14 @@ tinymce.activeEditor.dom.addClass('someid', 'someclass');
 |xref:#createFragment[createFragment()]|Creates a document fragment out of the specified HTML string.|`xref:apis/tinymce.dom.domutils.adoc[DOMUtils]`
 |xref:#createHTML[createHTML()]|Creates HTML string for element. The element will be closed unless an empty inner HTML string is passed in.|`xref:apis/tinymce.dom.domutils.adoc[DOMUtils]`
 |xref:#createRng[createRng()]|Creates a new DOM Range object. This will use the native DOM Range API if it's
-available. If it's not, it will fall back to the custom TinyMCE implementation.|`xref:apis/tinymce.dom.domutils.adoc[DOMUtils]`
+available. If it's not, it will fall back to the custom OpenTiny implementation.|`xref:apis/tinymce.dom.domutils.adoc[DOMUtils]`
 |xref:#decode[decode()]|Entity decodes a string. This method decodes any HTML entities, such as `&amp;aring;`.|`xref:apis/tinymce.dom.domutils.adoc[DOMUtils]`
 |xref:#destroy[destroy()]|Destroys all internal references to the DOM to solve memory leak issues.|`xref:apis/tinymce.dom.domutils.adoc[DOMUtils]`
 |xref:#dispatch[dispatch()]|Dispatches the specified event name and optional object on the specified target.|`xref:apis/tinymce.dom.domutils.adoc[DOMUtils]`
 |xref:#encode[encode()]|Entity encodes a string. This method encodes the most common entities, such as `<`, `>`, `"` and `&`.|`xref:apis/tinymce.dom.domutils.adoc[DOMUtils]`
 |xref:#findCommonAncestor[findCommonAncestor()]|Find the common ancestor of two elements. This is a shorter method than using the DOM Range logic.|`xref:apis/tinymce.dom.domutils.adoc[DOMUtils]`
 |xref:#fire[fire()]|Fires the specified event name and optional object on the specified target.
-__Deprecated in TinyMCE 6.0 and has been marked for removal in TinyMCE 7.0. Use `dispatch` instead.__|`xref:apis/tinymce.dom.domutils.adoc[DOMUtils]`
+__Deprecated in OpenTiny 6.0 and has been marked for removal in OpenTiny 7.0. Use `dispatch` instead.__|`xref:apis/tinymce.dom.domutils.adoc[DOMUtils]`
 |xref:#get[get()]|Returns the specified element by ID or the input element if it isn't a string.|`xref:apis/tinymce.dom.domutils.adoc[DOMUtils]`
 |xref:#getAttrib[getAttrib()]|Returns the specified attribute by name.|`xref:apis/tinymce.dom.domutils.adoc[DOMUtils]`
 |xref:#getAttribs[getAttribs()]|Returns a NodeList with attributes for the element.|`xref:apis/tinymce.dom.domutils.adoc[DOMUtils]`
@@ -289,7 +289,7 @@ tinymce.activeEditor.selection.setContent(tinymce.activeEditor.dom.createHTML('a
 createRng(): DOMRange
 ----
 Creates a new DOM Range object. This will use the native DOM Range API if it's
-available. If it's not, it will fall back to the custom TinyMCE implementation.
+available. If it's not, it will fall back to the custom OpenTiny implementation.
 
 ==== Examples
 [source, javascript]
@@ -396,7 +396,7 @@ Find the common ancestor of two elements. This is a shorter method than using th
 fire(target: Node | Document | Window, name: String, evt: Object): Event
 ----
 Fires the specified event name and optional object on the specified target.
-__Deprecated in TinyMCE 6.0 and has been marked for removal in TinyMCE 7.0. Use `dispatch` instead.__
+__Deprecated in OpenTiny 6.0 and has been marked for removal in OpenTiny 7.0. Use `dispatch` instead.__
 
 ==== Parameters
 

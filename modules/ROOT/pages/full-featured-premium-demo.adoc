@@ -1,13 +1,13 @@
 = Full featured demo: Including Premium Plugins
 :navtitle: Including premium features
 :page-aliases: premium-full-featured.adoc
-:description_short: Every TinyMCE plugin in action.
-:description: These examples display all of the plugins available with TinyMCE Cloud premium subscriptions.
+:description_short: Every OpenTiny plugin in action.
+:description: These examples display all of the plugins available with OpenTiny Cloud premium subscriptions.
 :keywords: example, demo, custom, wysiwyg, full-featured, plugins, non-premium
 
 This example includes most of the available {productname} plugins, including plugins available on {cloudname} premium subscriptions. Please note, it includes link:{plugindirectory}[premium plugins].
 
-Want to try it for yourself? link:{accountsignup}/[Get started with TinyMCE now on Cloud].
+Want to try it for yourself? link:{accountsignup}/[Get started with OpenTiny now on Cloud].
 
 liveDemo::full-featured[]
 

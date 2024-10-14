@@ -1,7 +1,7 @@
 *Covered in this section:*
 
-* xref:installing-the-tinymce-react-integration-using-npm-or-yarn[Installing the TinyMCE React integration using NPM or Yarn]
-* xref:using-tinymce-react-integration-in-a-bootstrap-dialog[Using TinyMCE React integration in a Bootstrap dialog]
+* xref:installing-the-tinymce-react-integration-using-npm-or-yarn[Installing the OpenTiny React integration using NPM or Yarn]
+* xref:using-tinymce-react-integration-in-a-bootstrap-dialog[Using OpenTiny React integration in a Bootstrap dialog]
 * xref:configuring-the-editor[Configuring the editor]
 * xref:available-props[Available props]
 ** xref:apikey[`+apiKey+`]
@@ -21,12 +21,12 @@
 ** xref:toolbar[`+toolbar+`]
 ** xref:tinymcescriptsrc[`+tinymceScriptSrc+`]
 ** xref:value[`+value+`]
-* xref:using-the-tinymce-react-component-as-a-uncontrolled-component[Using the TinyMCE React component as a uncontrolled component]
-* xref:using-the-tinymce-react-component-as-a-controlled-component[Using the TinyMCE React component as a controlled component]
+* xref:using-the-tinymce-react-component-as-a-uncontrolled-component[Using the OpenTiny React component as a uncontrolled component]
+* xref:using-the-tinymce-react-component-as-a-controlled-component[Using the OpenTiny React component as a controlled component]
 * xref:event-binding[Event binding]
 
 [[installing-the-tinymce-react-integration-using-npm-or-yarn]]
-== Installing the TinyMCE React integration using NPM or Yarn
+== Installing the OpenTiny React integration using NPM or Yarn
 
 To install the `+tinymce-react+` package and save it to your `+package.json+`.
 
@@ -43,7 +43,7 @@ yarn add @tinymce/tinymce-react
 ----
 
 [[using-tinymce-react-integration-in-a-bootstrap-dialog]]
-== Using TinyMCE React integration in a Bootstrap dialog
+== Using OpenTiny React integration in a Bootstrap dialog
 
 To use the {productname} React integration inside Bootstrap UI dialogs, add the following React effect hook to a component that renders with the editor. This code is required because Bootstrap blocks all `+focusin+` calls from elements outside the dialog.
 

@@ -1,6 +1,6 @@
-= TinyMCE React integration technical reference
+= OpenTiny React integration technical reference
 :navtitle: Technical reference
-:description: Technical reference for the TinyMCE React integration
+:description: Technical reference for the OpenTiny React integration
 :keywords: integration, integrate, react, reactapp
 
 include::partial$integrations/react-tech-ref.adoc[]

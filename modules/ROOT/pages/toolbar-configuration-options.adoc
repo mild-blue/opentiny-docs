@@ -1,6 +1,6 @@
 = Options for customizing the editor's toolbars
 :navtitle: Options
-:description: Information on options for customizing TinyMCE's toolbars
+:description: Information on options for customizing OpenTiny's toolbars
 
 == Basic toolbar options
 

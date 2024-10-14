@@ -1,7 +1,7 @@
 = Basic setup
 :navtitle: Basic setup
 :description_short: The three most important configuration settings, with examples.
-:description: TinyMCE provides a range of configuration options that allow you to integrate it into your application.
+:description: OpenTiny provides a range of configuration options that allow you to integrate it into your application.
 :keywords: selector, plugin, toolbar, configuration, configure
 
 This introduction to {productname} details the options used in traditional form-based layouts, useful information for creating streamlined user experiences, and examples of using {productname} as an inline editor.
@@ -93,7 +93,7 @@ tinymce.init({
 });
 ----
 
-For a full list of plugins and their options, see: xref:plugins.adoc[Add plugins to TinyMCE].
+For a full list of plugins and their options, see: xref:plugins.adoc[Add plugins to OpenTiny].
 
 [[toolbar-configuration]]
 == Toolbar configuration
@@ -290,5 +290,5 @@ liveDemo::basic-conf[]
 ** Initial configuration - For initial configuration and important settings.
 ** Interface - For customizing the look and feel of the editor.
 ** Content - For customizing the allowed content and the associated behaviors.
-* For information on Plugins and their options, see: xref:work-with-plugins.adoc[Add plugins to TinyMCE].
+* For information on Plugins and their options, see: xref:work-with-plugins.adoc[Add plugins to OpenTiny].
 * For information on the CSS required to render some {productname} elements outside of the editor, see: xref:editor-content-css.adoc[Boilerplate content CSS].

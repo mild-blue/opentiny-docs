@@ -90,7 +90,7 @@ This is a popular choice and many CMSs have existing plugins that support oEmbed
 * Must be a separate API rather than just metadata embedded in the content
 * Error messages aren’t defined as part of the spec
 
-=== TinyMCE Enhanced Media Embed endpoint
+=== OpenTiny Enhanced Media Embed endpoint
 
 The other option for developing a custom API endpoint is to return JSON in the xref:tinymce-enhanced-media-embed-format[{productname} Enhanced Media Embed format].
 
@@ -107,7 +107,7 @@ The other option for developing a custom API endpoint is to return JSON in the x
 * The {productname} editor does not fully take advantage of this format yet
 
 [[tinymce-enhanced-media-embed-format]]
-=== TinyMCE Enhanced Media Embed format
+=== OpenTiny Enhanced Media Embed format
 
 ==== HTTP response status codes
 

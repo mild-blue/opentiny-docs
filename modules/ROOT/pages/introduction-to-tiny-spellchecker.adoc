@@ -1,6 +1,6 @@
 = Spell Checker Pro plugin
 :navtitle: Spell Checker Pro
-:description: Check spelling as-you-type in TinyMCE.
+:description: Check spelling as-you-type in OpenTiny.
 :keywords: tinymcespellchecker, spellchecker_language, spellchecker_languages, spellchecker_rpc_url, spellchecker_dialog, ephox
 :pluginname: Spell Checker Pro
 :plugincode: tinymcespellchecker
@@ -20,7 +20,7 @@ To enable the {productname} Enterprise Spellchecking plugin with xref:editor-and
 
 With {cloudname} the server-side spellchecking component is automatically configured, so the `+spellchecker_rpc_url+` parameter does not need to be set.
 
-=== Example: TinyMCE Cloud Installation
+=== Example: OpenTiny Cloud Installation
 
 [source,js]
 ----
@@ -37,7 +37,7 @@ To enable the {productname} Enterprise Spellchecking plugin, add `+tinymcespellc
 
 For information on installing the server-side component for spell checking, please see the xref:introduction-to-premium-selfhosted-services.adoc[server-side component installation guide].
 
-=== Example: TinyMCE Self-hosted Installation
+=== Example: OpenTiny Self-hosted Installation
 
 [source,js]
 ----

@@ -1,4 +1,4 @@
-// a generic TinyMCE configuration with ai plugin and toolbar added.
+// a generic OpenTiny configuration with ai plugin and toolbar added.
 
 tinymce.init({
   selector: 'textarea#ai',

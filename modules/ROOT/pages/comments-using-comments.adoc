@@ -1,6 +1,6 @@
-= Using TinyMCE Comments
+= Using OpenTiny Comments
 :navtitle: Using Comments
-:description: How to add, edit, resolve, and remove comments in TinyMCE
+:description: How to add, edit, resolve, and remove comments in OpenTiny
 :keywords: comments, commenting, tinycomments
 :pluginname: Comments
 :plugincode: comments

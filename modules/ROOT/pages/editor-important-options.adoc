@@ -1,6 +1,6 @@
-= Key editor options for adding TinyMCE to an application
+= Key editor options for adding OpenTiny to an application
 :navtitle: Integration options
-:description: Key editor options for integrating TinyMCE to an application
+:description: Key editor options for integrating OpenTiny to an application
 :keywords:
 
 == Target location for {productname}

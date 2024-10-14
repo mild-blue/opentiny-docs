@@ -1,11 +1,11 @@
 Covered in this section:
 
-* xref:configuring-the-tinymce-svelte-integration[Configuring the TinyMCE Svelte integration]
+* xref:configuring-the-tinymce-svelte-integration[Configuring the OpenTiny Svelte integration]
 * xref:component-binding[Component binding]
 * xref:event-binding[Event binding]
 
 [[configuring-the-tinymce-svelte-integration]]
-== Configuring the TinyMCE Svelte integration
+== Configuring the OpenTiny Svelte integration
 
 The `+tinymce-svelte+` `+Editor+` component accepts the following properties:
 

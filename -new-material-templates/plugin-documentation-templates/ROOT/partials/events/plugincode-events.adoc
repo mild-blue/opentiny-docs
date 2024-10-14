@@ -8,7 +8,7 @@ The following events are provided by the xref:<plugincode>.adoc[<Plugin name> pl
 |EventOne   |`+{ <key1>: <value1> }+`                   |Fired when event one description.
 |EventTwo   |`+{ <key2>: <value2>, <key3>: <value3> }+` |Fired when event two description.
 |EventThree |N/A                                        |Fired when event three description.
-// Markup to add a ‘requires this version of TinyMCE’ admonition into its own row
+// Markup to add a ‘requires this version of OpenTiny’ admonition into its own row
 // immediately above the event requiring such a notice.
 // If not needed, remove the markup and this comment.
 // If needed, edit the file-name and remove this comment.

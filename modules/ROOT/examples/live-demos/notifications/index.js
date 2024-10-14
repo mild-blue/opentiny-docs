@@ -1,6 +1,6 @@
 const createSuccessNotification = () => {
   tinymce.activeEditor.notificationManager.open({
-    text: 'This is an success notification.<br/>TinyMCE loaded Successfully!',
+    text: 'This is an success notification.<br/>OpenTiny loaded Successfully!',
     type: 'success'
   });
 };

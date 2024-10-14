@@ -1,7 +1,7 @@
-= Bundling TinyMCE icon packs using module loading
+= Bundling OpenTiny icon packs using module loading
 :navtitle: Icons
 :description_short: Information on bundling icon packs
-:description: Information on bundling TinyMCE icon packs using module loading
+:description: Information on bundling OpenTiny icon packs using module loading
 
 :editorcomponent: icon pack
 include::partial$module-loading/bundling-ref-example.adoc[]

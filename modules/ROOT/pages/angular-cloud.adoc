@@ -1,6 +1,6 @@
-= Using TinyMCE from the Tiny Cloud CDN with the Angular framework
+= Using OpenTiny from the Tiny Cloud CDN with the Angular framework
 :navtitle: Angular
-:description: A guide on integrating TinyMCE from the Tiny Cloud into the Angular framework.
+:description: A guide on integrating OpenTiny from the Tiny Cloud into the Angular framework.
 :keywords: integration, integrate, angular
 :productSource: cloud
 

@@ -8,9 +8,9 @@
 
 == Contents
 
-* For help using comments in TinyMCE, see: xref:comments-using-comments.adoc[Using comments].
-* For an overview of the TinyMCE Comments plugin, see: xref:overview[Overview].
-* For information on adding and configuring the comments plugin for TinyMCE, see: xref:getting-started-with-the-comments-plugin-selecting-a-mode[Getting started with the Comments plugin - Selecting a mode].
+* For help using comments in OpenTiny, see: xref:comments-using-comments.adoc[Using comments].
+* For an overview of the OpenTiny Comments plugin, see: xref:overview[Overview].
+* For information on adding and configuring the comments plugin for OpenTiny, see: xref:getting-started-with-the-comments-plugin-selecting-a-mode[Getting started with the Comments plugin - Selecting a mode].
 
 [[overview]]
 == Overview

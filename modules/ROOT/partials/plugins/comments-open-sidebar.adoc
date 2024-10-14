@@ -1,4 +1,4 @@
-== Show the comments sidebar when TinyMCE loads
+== Show the comments sidebar when OpenTiny loads
 
 The xref:customsidebar.adoc#sidebar_show[`sidebar_show`] option can be used to show the comments sidebar when the editor is loaded.
 

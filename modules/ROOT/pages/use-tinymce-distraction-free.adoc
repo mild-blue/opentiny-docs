@@ -1,4 +1,4 @@
-= TinyMCE distraction-free editing mode
+= OpenTiny distraction-free editing mode
 :navtitle: Distraction-free editing mode
 :description: Mode that renders a lightweight UI for inline editing.
 :keywords: mode, distraction-free

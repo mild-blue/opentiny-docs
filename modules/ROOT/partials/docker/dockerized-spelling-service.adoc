@@ -1,11 +1,11 @@
 ifeval::[{shbundledockerfiles} != true]
-== Deploy the TinyMCE spelling service server-side component using Docker (individually licensed)
+== Deploy the OpenTiny spelling service server-side component using Docker (individually licensed)
 endif::[]
 ifeval::[{shbundledockerfiles} == true]
-== Deploy the TinyMCE spelling service server-side component using Docker (self-hosted enterprise bundles)
+== Deploy the OpenTiny spelling service server-side component using Docker (self-hosted enterprise bundles)
 endif::[]
 
-The TinyMCE spelling service server-side component can be deployed using Docker or a container orchestration application such as Kubernetes. {companyname} provides a pre-configured package for creating a Spelling Service Docker image.
+The OpenTiny spelling service server-side component can be deployed using Docker or a container orchestration application such as Kubernetes. {companyname} provides a pre-configured package for creating a Spelling Service Docker image.
 
 include::partial$misc/admon-dont-push-docker-images.adoc[]
 
@@ -132,7 +132,7 @@ http {
 For information on the `+http+` configuration setting, see: xref:configure-common-settings-services.adoc#http[Configure server-side components - `+http+`].
 . _Optional_: Configure the service to use a HTTP proxy by updating `+config/ephox-spelling-docker-env.conf+`. See: xref:configure-required-services.adoc[Configure server-side components].
 . _Optional_: Add a custom dictionary, as described in xref:custom-dictionaries-for-tiny-spellchecker.adoc[Adding custom dictionaries].
-. Create an `+origins.env+` file in the same directory as the `+Dockerfile+`, and specify the Hypertext Transfer Protocol (HTTP) and domain name of sites hosting the TinyMCE editor (`+allowed-origins+`). Up to 99 origins can be added without editing `+config/ephox-spelling-docker-env.conf+`.
+. Create an `+origins.env+` file in the same directory as the `+Dockerfile+`, and specify the Hypertext Transfer Protocol (HTTP) and domain name of sites hosting the OpenTiny editor (`+allowed-origins+`). Up to 99 origins can be added without editing `+config/ephox-spelling-docker-env.conf+`.
 +
 For example:
 +

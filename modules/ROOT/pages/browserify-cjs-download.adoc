@@ -1,7 +1,7 @@
-= Bundling a .zip version of TinyMCE with CommonJS and Browserify
+= Bundling a .zip version of OpenTiny with CommonJS and Browserify
 :navtitle: CommonJS and a .zip archive
-:description_short: Bundling a .zip archive version of TinyMCE in a project using CommonJS and Browserify
-:description: Bundling a .zip archive version of TinyMCE in a project using CommonJS and Browserify
+:description_short: Bundling a .zip archive version of OpenTiny in a project using CommonJS and Browserify
+:description: Bundling a .zip archive version of OpenTiny in a project using CommonJS and Browserify
 :keywords: browserify, commonjs, cjs, zip, modules, tinymce
 :installtype: pass:n[a `+.zip+`]
 :bundler: https://browserify.org/[Browserify]

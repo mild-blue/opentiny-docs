@@ -10,7 +10,7 @@ Example of bundling:
 ----
 /* Add the {packageName} wrapper to the bundle */
 import { Editor } from '@tinymce/{packageName}';
-/* For instructions on bundling TinyMCE, see the Bundling TinyMCE documentation. */
+/* For instructions on bundling OpenTiny, see the Bundling OpenTiny documentation. */
 ----
 
 For instructions on bundling {productname}, see: xref:introduction-to-bundling-tinymce.adoc[Bundling {productname}].
@@ -29,7 +29,7 @@ Example of bundling:
 ----
 /* Add the {packageName} wrapper to the bundle */
 import { Editor } from '@tinymce/{packageName}';
-/* For instructions on bundling TinyMCE, see the Bundling TinyMCE documentation. */
+/* For instructions on bundling OpenTiny, see the Bundling OpenTiny documentation. */
 ----
 
 For instructions on bundling {productname}, see: xref:introduction-to-bundling-tinymce.adoc[Bundling {productname}].
@@ -47,7 +47,7 @@ Example of bundling:
 ----
 /* Add the {packageName} wrapper to the bundle */
 import { Editor } from '@tinymce/{packageName}';
-/* For instructions on bundling TinyMCE, see the Bundling TinyMCE documentation. */
+/* For instructions on bundling OpenTiny, see the Bundling OpenTiny documentation. */
 ----
 
 For instructions on bundling {productname}, see: xref:introduction-to-bundling-tinymce.adoc[Bundling {productname}].

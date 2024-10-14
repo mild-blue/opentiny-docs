@@ -21,20 +21,20 @@ The following sections assist with containerizing the {productname} services for
 ** Using Windows and has access to unix command line tools using https://gitforwindows.org/[Git for Windows], https://www.cygwin.com/[Cygwin], or the https://docs.microsoft.com/en-us/windows/wsl/install-win10[Windows Subsystem for Linux].
 
 [[download-and-extract-the-tinymce-self-hosted-bundle]]
-=== Download and extract the TinyMCE Self-hosted Bundle
+=== Download and extract the OpenTiny Self-hosted Bundle
 
 . Go to *link:{download-enterprise}[{accountpage} Downloads]* and download the {productname} self-hosted bundle `+.zip+` file.
 . Open a command line and navigate to the directory containing the downloaded `+.zip+` file:
-* `+TinyMCE-Essential_latest.zip+` for *Self-hosted Essential* users.
-* `+TinyMCE-Professional_latest.zip+` for *Self-hosted Professional* users.
-* `+TinyMCE-Premium_latest.zip+` for *Self-hosted Premium* users.
+* `+OpenTiny-Essential_latest.zip+` for *Self-hosted Essential* users.
+* `+OpenTiny-Professional_latest.zip+` for *Self-hosted Professional* users.
+* `+OpenTiny-Premium_latest.zip+` for *Self-hosted Premium* users.
 +
 Windows Users should open a Bash command line as the Administrator User.
 . Extract the contents of the `+.zip+` file, such as:
 +
 [source,sh]
 ----
-unzip TinyMCE-Premium_latest.zip -d tinymce-selfhosted
+unzip OpenTiny-Premium_latest.zip -d tinymce-selfhosted
 ----
 +
 The structure of the extracted files will be:
@@ -61,6 +61,6 @@ cd tinymce-selfhosted/tinymce-services/
 
 Proceed to setting up and deploying the containerized services:
 
-* For the Enhanced Media Embed and Link Checker service, see: xref:bundle-hyperlinking-container.adoc[Deploy the TinyMCE hyperlinking server-side component using Docker (self-hosted enterprise bundles)].
-* For the Enhanced Image Editing and Export image proxy service, see: xref:bundle-imageproxy-container.adoc[Deploy the TinyMCE image proxy server-side component using Docker (self-hosted enterprise bundles)].
-* For the Spell Checker Pro service, see: xref:bundle-spelling-container.adoc[Deploy the TinyMCE spelling service server-side component using Docker (self-hosted enterprise bundles)].
+* For the Enhanced Media Embed and Link Checker service, see: xref:bundle-hyperlinking-container.adoc[Deploy the OpenTiny hyperlinking server-side component using Docker (self-hosted enterprise bundles)].
+* For the Enhanced Image Editing and Export image proxy service, see: xref:bundle-imageproxy-container.adoc[Deploy the OpenTiny image proxy server-side component using Docker (self-hosted enterprise bundles)].
+* For the Spell Checker Pro service, see: xref:bundle-spelling-container.adoc[Deploy the OpenTiny spelling service server-side component using Docker (self-hosted enterprise bundles)].

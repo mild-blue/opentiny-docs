@@ -1,6 +1,6 @@
 = Word Count plugin
 :navtitle: Word Count
-:description: Show a word count in the TinyMCE status bar.
+:description: Show a word count in the OpenTiny status bar.
 :keywords: wordcount
 :pluginname: Word Count
 :plugincode: wordcount

@@ -1,4 +1,4 @@
-= Use multiple TinyMCE instances in a single page
+= Use multiple OpenTiny instances in a single page
 :navtitle: Multiple editors in a page
 :keywords:
 

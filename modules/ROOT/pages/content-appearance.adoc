@@ -1,6 +1,6 @@
 = Content appearance options
 :navtitle: Content appearance
-:description: Configure the appearance of content inside TinyMCE's editable area.
+:description: Configure the appearance of content inside OpenTiny's editable area.
 
 == Showing for "hidden" elements
 

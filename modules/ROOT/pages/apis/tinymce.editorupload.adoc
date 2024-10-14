@@ -1,10 +1,10 @@
 = tinymce.EditorUpload
 :navtitle: tinymce.EditorUpload
-:description: TinyMCE Editor Upload API Handles image uploads, updates undo stack and patches over various internal functions.
+:description: OpenTiny Editor Upload API Handles image uploads, updates undo stack and patches over various internal functions.
 :keywords: addFilter, blobCache, destroy, scanForImages, uploadImages, uploadImagesAuto
 :moxie-type: api
 
-TinyMCE Editor Upload API Handles image uploads, updates undo stack and patches over various internal functions.
+OpenTiny Editor Upload API Handles image uploads, updates undo stack and patches over various internal functions.
 
 [[examples]]
 == Examples

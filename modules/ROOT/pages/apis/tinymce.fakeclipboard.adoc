@@ -1,10 +1,10 @@
 = tinymce.FakeClipboard
 :navtitle: tinymce.FakeClipboard
-:description: TinyMCE FakeClipboard API.
+:description: OpenTiny FakeClipboard API.
 :keywords: FakeClipboardItem, clear, read, write
 :moxie-type: api
 
-TinyMCE FakeClipboard API.
+OpenTiny FakeClipboard API.
 
 [[summary]]
 == Summary

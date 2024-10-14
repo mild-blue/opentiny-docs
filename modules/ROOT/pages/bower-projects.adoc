@@ -1,6 +1,6 @@
-= Installing TinyMCE with Bower
+= Installing OpenTiny with Bower
 :navtitle: Bower projects
-:description: Learn how to install TinyMCE using Bower.
+:description: Learn how to install OpenTiny using Bower.
 :keywords: bower, javascript, install
 :productSource: bower
 

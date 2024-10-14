@@ -1,12 +1,12 @@
 Covered in this section:
 
-* xref:configuring-the-tinymce-blazor-integration[Configuring the TinyMCE Blazor integration]
+* xref:configuring-the-tinymce-blazor-integration[Configuring the OpenTiny Blazor integration]
 * xref:component-binding[Component binding]
 
 [[configuring-the-tinymce-blazor-integration]]
-== Configuring the TinyMCE Blazor integration
+== Configuring the OpenTiny Blazor integration
 
-The `+TinyMCE.Blazor+` `+Editor+` component accepts the following properties:
+The `+OpenTiny.Blazor+` `+Editor+` component accepts the following properties:
 
 [source,cs]
 ----
@@ -24,7 +24,7 @@ The `+TinyMCE.Blazor+` `+Editor+` component accepts the following properties:
 />
 ----
 
-None of the configuration properties are required for the TinyMCE Blazor integration to work.
+None of the configuration properties are required for the OpenTiny Blazor integration to work.
 
 === `ApiKey`
 
@@ -169,7 +169,7 @@ In your component:
 
 === `ScriptSrc`
 
-Use the `+ScriptSrc+` property to specify the location of {productname} to lazy load when the application is not using {cloudname}. This setting is required if the application uses a self-hosted version of {productname}, such as the https://www.nuget.org/packages/TinyMCE/[{productname} NuGet package] or a .zip package of {productname}.
+Use the `+ScriptSrc+` property to specify the location of {productname} to lazy load when the application is not using {cloudname}. This setting is required if the application uses a self-hosted version of {productname}, such as the https://www.nuget.org/packages/OpenTiny/[{productname} NuGet package] or a .zip package of {productname}.
 
 *Type:* `+String+`
 
@@ -230,7 +230,7 @@ The editor component allows developers to bind the contents of editor to a varia
 
 === Binding Text output
 
-Starting from TinyMCE.Blazor v0.0.4, the editor exposes the `+@bind-Text+` property, which developers can `+bind+` to retrieve a read-only value of the editor content as text. Changes will not propagate up to the editor if the `+text+` bound variable changes. It will only propagate changes from the editor.
+Starting from OpenTiny.Blazor v0.0.4, the editor exposes the `+@bind-Text+` property, which developers can `+bind+` to retrieve a read-only value of the editor content as text. Changes will not propagate up to the editor if the `+text+` bound variable changes. It will only propagate changes from the editor.
 
 ==== Example using output text binding
 

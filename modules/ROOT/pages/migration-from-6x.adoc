@@ -1,18 +1,18 @@
-= Migrating from TinyMCE 6 to TinyMCE 7
-:navtitle: Migrating from TinyMCE 6
-:description: Guidance for migrating from TinyMCE 6 to TinyMCE 7
+= Migrating from OpenTiny 6 to OpenTiny 7
+:navtitle: Migrating from OpenTiny 6
+:description: Guidance for migrating from OpenTiny 6 to OpenTiny 7
 :keywords: migration, considerations, premigration, pre-migration
 
-The process for setting up a basic TinyMCE 7 instance is the same as TinyMCE 6.
+The process for setting up a basic OpenTiny 7 instance is the same as OpenTiny 6.
 
 Most configuration changes in {productname} 7.0 only affect complex use cases, such as custom plugins and customized user interface components.
 
 This chapter describes the settings that require updating prior to migration; and workaround procedures for deprecated, deleted, and updated features.
 
-It set outs the {productname} 7.0 changes that customers using TinyMCE 6 should be aware of as part of upgrading.
+It set outs the {productname} 7.0 changes that customers using OpenTiny 6 should be aware of as part of upgrading.
 
 NOTE: For support related to migration, please contact https://support.tiny.cloud/hc/en-us/requests/new[Tiny support].  +
-Open Source users: please report issues in the https://github.com/mild-blue/opentiny/[TinyMCE GitHub Repository].
+Open Source users: please report issues in the https://github.com/mild-blue/opentiny/[OpenTiny GitHub Repository].
 
 == Contents
 

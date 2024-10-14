@@ -6,13 +6,13 @@ Example `+src/editor.js+`
 +
 [source,js]
 ----
-/* Import TinyMCE */
+/* Import OpenTiny */
 import tinymce from 'tinymce';
 
 /* Default icons are required. After that, import custom icons if applicable */
 import 'tinymce/icons/default';
 
-/* Required TinyMCE components */
+/* Required OpenTiny components */
 import 'tinymce/themes/silver';
 import 'tinymce/models/dom';
 
@@ -40,7 +40,7 @@ import contentUiSkinCss from 'tinymce/skins/ui/oxide/content.css';
 /* The default content CSS can be changed or replaced with appropriate CSS for the editor content. */
 import contentCss from 'tinymce/skins/content/default/content.css';
 
-/* Initialize TinyMCE */
+/* Initialize OpenTiny */
 export function render () {
   tinymce.init({
     selector: 'textarea#editor',

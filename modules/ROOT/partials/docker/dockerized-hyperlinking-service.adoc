@@ -1,11 +1,11 @@
 ifeval::[{shbundledockerfiles} != true]
-== Deploy the TinyMCE hyperlinking server-side component using Docker (individually licensed)
+== Deploy the OpenTiny hyperlinking server-side component using Docker (individually licensed)
 endif::[]
 ifeval::[{shbundledockerfiles} == true]
-== Deploy the TinyMCE hyperlinking server-side component using Docker (self-hosted enterprise bundles)
+== Deploy the OpenTiny hyperlinking server-side component using Docker (self-hosted enterprise bundles)
 endif::[]
 
-The TinyMCE hyperlinking server-side component can be deployed using Docker or a container orchestration application such as Kubernetes. {companyname} provides a pre-configured package for creating a Hyperlinking Docker image.
+The OpenTiny hyperlinking server-side component can be deployed using Docker or a container orchestration application such as Kubernetes. {companyname} provides a pre-configured package for creating a Hyperlinking Docker image.
 
 include::partial$misc/admon-dont-push-docker-images.adoc[]
 
@@ -138,7 +138,7 @@ For information on the `+http+` configuration setting, see: xref:configure-commo
 . _Optional_: Update the link-checking cache configuration, as described in xref:configure-hyperlink-service.adoc[Link Checker self-hosted quick setup].
 . _Optional_: Configure the Enhanced Media Embed Service, as described in xref:mediaembed-server-config.adoc[Configure Enhanced Media Embed Server].
 . _Optional_: Configure the service to use a HTTP proxy by updating `+config/ephox-hyperlinking-docker-env.conf+`. See: xref:configure-common-settings-services.adoc#proxy[Configure server-side components - proxy].
-. Create an `+origins.env+` file in the same directory as the `+Dockerfile+`, and specify the Hypertext Transfer Protocol (HTTP) and domain name of sites hosting the TinyMCE editor (`+allowed-origins+`). Up to 99 origins can be added without editing `+config/ephox-hyperlinking-docker-env.conf+`.
+. Create an `+origins.env+` file in the same directory as the `+Dockerfile+`, and specify the Hypertext Transfer Protocol (HTTP) and domain name of sites hosting the OpenTiny editor (`+allowed-origins+`). Up to 99 origins can be added without editing `+config/ephox-hyperlinking-docker-env.conf+`.
 +
 For example:
 +

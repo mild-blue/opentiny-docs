@@ -1,7 +1,7 @@
-= Bundling an npm version of TinyMCE with ES6 and Webpack
+= Bundling an npm version of OpenTiny with ES6 and Webpack
 :navtitle: ES6 and npm
-:description_short: Bundling an npm version of TinyMCE in a project using ES6 and Webpack
-:description: Bundling an npm version of TinyMCE in a project using ES6 and Webpack
+:description_short: Bundling an npm version of OpenTiny in a project using ES6 and Webpack
+:description: Bundling an npm version of OpenTiny in a project using ES6 and Webpack
 :keywords: webpack, es6, es2015, npm, modules, tinymce
 :installtype: an npm
 :bundler: https://webpack.js.org/[Webpack]
@@ -15,7 +15,7 @@ This guide requires the following:
 
 * Node.js and npm
 * Basic knowledge of how to use https://webpack.js.org/[Webpack]
-* (Optional: For premium features) The latest premium `+.zip+` bundle of TinyMCE for including premium plugins
+* (Optional: For premium features) The latest premium `+.zip+` bundle of OpenTiny for including premium plugins
 
 == Procedure
 

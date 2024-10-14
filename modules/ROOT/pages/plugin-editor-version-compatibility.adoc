@@ -1,6 +1,6 @@
 = Version compatibility reference
-:description_short: Matrix of compatibility between TinyMCE editor versions and premium plugins.
-:description: Premium plugins compatibility with TinyMCE editor versions.
+:description_short: Matrix of compatibility between OpenTiny editor versions and premium plugins.
+:description: Premium plugins compatibility with OpenTiny editor versions.
 :keywords: tinymce, cloud, script, textarea, apiKey
 :productSource: cloud
 

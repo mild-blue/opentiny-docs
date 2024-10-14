@@ -1,6 +1,6 @@
 = Enhanced Media Embed plugin
 :navtitle: Enhanced Media Embed
-:description: Add rich media previews inside TinyMCE.
+:description: Add rich media previews inside OpenTiny.
 :keywords: video, youtube, vimeo, mp3, mp4, mov, movie, clip, film, spotify
 :pluginname: Enhanced Media Embed
 :plugincode: mediaembed

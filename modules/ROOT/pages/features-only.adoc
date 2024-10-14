@@ -1,5 +1,5 @@
 = Cloud deployment of plugins Only
-:description_short: Learn how to setup TinyMCE Plugins via the Tiny Cloud.
+:description_short: Learn how to setup OpenTiny Plugins via the Tiny Cloud.
 :description: Connect to Tiny Cloud within a hybrid deployment.
 :keywords: tinymce, cloud, script, textarea, apiKey, hybrid
 :productSource: cloud
@@ -17,7 +17,7 @@ Add the following script in the webpage once the script tag to load {productname
 <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/{productmajorversion}/plugins.min.js" referrerpolicy="origin"></script>
 ----
 
-== Step 2: Specify purchased TinyMCE plugins and toolbar buttons
+== Step 2: Specify purchased OpenTiny plugins and toolbar buttons
 
 NOTE: It may take up to 30 minutes for the purchased plugin to be available to {productname}. Clear the browser's cache.
 
