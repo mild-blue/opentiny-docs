@@ -57,7 +57,7 @@ This channel deploys the current *release candidate* for the `{productmajorversi
 [#{productmajorversion}-dev-release-channel]
 ==== {productmajorversion}-dev release channel
 
-This channel deploys nightly builds of {productname}. This channel includes the unreleased changes documented in the https://github.com/tinymce/tinymce/blob/develop/modules/tinymce/CHANGELOG.md[{productname} changelog]. The current version of {productname} available through the `{productmajorversion}-dev` channel can be found on the https://cdn.tiny.cloud/1/no-api-key/tinymce/{productmajorversion}-dev/version.txt[{cloudname} {productname} {productmajorversion}-dev version page].
+This channel deploys nightly builds of {productname}. This channel includes the unreleased changes documented in the https://github.com/mild-blue/opentiny/blob/develop/modules/tinymce/CHANGELOG.md[{productname} changelog]. The current version of {productname} available through the `{productmajorversion}-dev` channel can be found on the https://cdn.tiny.cloud/1/no-api-key/tinymce/{productmajorversion}-dev/version.txt[{cloudname} {productname} {productmajorversion}-dev version page].
 
 [#example-using-the-{productmajorversion}-dev-release-channel]
 ===== Example: using the `{productmajorversion}-dev` release channel

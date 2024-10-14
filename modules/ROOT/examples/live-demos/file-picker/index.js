@@ -7,7 +7,7 @@ tinymce.init({
   /* enable automatic uploads of images represented by blob or data URIs*/
   automatic_uploads: true,
   /*
-    URL of our upload handler (for more details check: https://www.tiny.cloud/docs/configure/file-image-upload/#images_upload_url)
+    URL of our upload handler (for more details check: https://www.opentiny.mild.blue/configure/file-image-upload/#images_upload_url)
     images_upload_url: 'postAcceptor.php',
     here we add custom filepicker only to Image dialog
   */

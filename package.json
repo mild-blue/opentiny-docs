@@ -6,7 +6,7 @@
   "bugs": {
     "url": "https://github.com/mild-blue/opentiny-docs/issues"
   },
-  "homepage": "https://www.tiny.cloud/docs/",
+  "homepage": "https://www.opentiny.mild.blue/",
   "scripts": {
     "build": "./-scripts/api-reference.sh",
     "build-local-ref": "./-scripts/api-reference-local.sh",

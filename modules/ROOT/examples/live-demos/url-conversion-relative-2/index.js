@@ -3,6 +3,6 @@ tinymce.init({
   height: 300,
   plugins: 'link image code',
   relative_urls: true,
-  document_base_url: '//www.tiny.cloud/docs/demo',
+  document_base_url: '//www.opentiny.mild.blue/demo',
   content_style: 'body { font-family:Helvetica,Arial,sans-serif; font-size:16px }'
 });

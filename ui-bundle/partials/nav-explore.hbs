@@ -17,23 +17,6 @@
           <a href="{{{relativize ./url}}}">{{./displayVersion}}</a>
         </li>
         {{/each}}
-
-        <!-- remove this once the release of 5, 4 and 3 is confirmed - @Amit -->
-        {{#if (or (eq ./title "TinyMCE Documentation [BETA]") (eq ./title "TinyMCE Documentation") )}}
-        <li class="version">
-          <a href="https://www.tiny.cloud/docs/tinymce/6/">6</a>
-        </li>
-         <li class="version">
-          <a href="https://www.tiny.cloud/docs/">5</a>
-        </li>
-        <li class="version">
-          <a href="https://www.tiny.cloud/docs-4x/">4</a>
-        </li>
-        <li class="version">
-          <a href="https://www.tiny.cloud/docs-3x/">3</a>
-        </li>
-        {{/if}}
-
       </ul>
     </li>
     {{/each}}

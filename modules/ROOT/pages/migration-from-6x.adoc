@@ -12,7 +12,7 @@ This chapter describes the settings that require updating prior to migration; an
 It set outs the {productname} 7.0 changes that customers using TinyMCE 6 should be aware of as part of upgrading.
 
 NOTE: For support related to migration, please contact https://support.tiny.cloud/hc/en-us/requests/new[Tiny support].  +
-Open Source users: please report issues in the https://github.com/tinymce/tinymce/[TinyMCE GitHub Repository].
+Open Source users: please report issues in the https://github.com/mild-blue/opentiny/[TinyMCE GitHub Repository].
 
 == Contents
 

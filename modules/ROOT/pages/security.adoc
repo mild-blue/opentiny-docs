@@ -53,7 +53,7 @@ To protect {productname} users, {companyname}:
 
 SVGs (Scalable Vector Graphics) are not supported in {productname} to protect our users and their end-users. SVGs can be used to perform both client-side and server-side attacks.
 
-From the 1st of January 2020, Security Advisories for patched XSS vulnerabilities will be published on the https://github.com/tinymce/tinymce/security/advisories?state=published[{productname} GitHub repository Security page].
+From the 1st of January 2020, Security Advisories for patched XSS vulnerabilities will be published on the https://github.com/mild-blue/opentiny/security/advisories?state=published[{productname} GitHub repository Security page].
 
 [[keeping-dependencies-up-to-date]]
 === Keeping dependencies up-to-date
